@@ -1,0 +1,1893 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Recommendations</title>
+
+  <script defer src="script.js"></script>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f8f8f8;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    h1,
+    h2,
+    h3 {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      color: #2c3e50;
+    }
+
+    .navbar-container h1.logo {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      font-size: 29px;
+      color: #e74c3c;
+      margin: 0;
+      /* Ensure no extra margin around the logo */
+    }
+
+    .navbar-container .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .navbar-container {
+      padding-left: 0;
+      /* Ensure no padding on the left side */
+    }
+
+
+    *,
+    *::after,
+    *::before {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+
+    .html {
+      font-size: 62.5%;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* ///////////..utility classes../////////// */
+
+    .container {
+      max-width: 1200px;
+      width: 90%;
+      margin: auto;
+    }
+
+    #showcase {
+      height: 500px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.5em 1.5em;
+      text-decoration: none;
+      border-radius: 50px;
+      cursor: pointer;
+      outline: none;
+      margin-top: 1em;
+      text-transform: uppercase;
+      font-weight: small;
+    }
+
+    .btn-primary {
+      color: #fff;
+      background: black;
+    }
+
+    .btn-primary:hover {
+      background: #117964;
+      transition: background 0.3s ease-in-out;
+    }
+
+    /* ............/navbar/............ *
+
+/* desktop mode............/// */
+
+    .navbar input[type="checkbox"],
+    .navbar .hamburger-lines {
+      display: none;
+    }
+
+    .navbar {
+      box-shadow: 37px -42px 10px 37px #aaa;
+      ;
+      position: fixed;
+      width: 100%;
+      background: #fff;
+      color: #000;
+      height: 70px;
+      display: flex;
+      align-items: center;
+      z-index: 12;
+    }
+
+    .navbar-container {
+      display: flex;
+      justify-content: space-between;
+      height: 64px;
+      align-items: center;
+    }
+
+    .menu-items {
+      order: 2;
+      display: flex;
+    }
+
+    .menu-items li {
+      list-style: none;
+      margin-left: 1.5rem;
+      margin-bottom: 0.5rem;
+      font-size: 1.2rem;
+    }
+
+    .menu-items a {
+      text-decoration: none;
+      color: #444;
+      font-weight: 500;
+      transition: color 0.3s ease-in-out;
+    }
+
+    .menu-items a:hover {
+      color: #117964;
+      transition: color 0.3s ease-in-out;
+    }
+
+
+    .logo {
+      order: 1;
+      font-size: 2.3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    /* ............//// Showcase styling ////......... */
+
+    .showcase-area {
+      height: 50vh;
+      background: linear-gradient(rgba(240, 240, 240, 0.144),
+          rgba(255, 255, 255, 0.336)),
+        url("https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?w=500&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTV8fHxlbnwwfHx8fHw%3D");
+      background-position: center;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .showcase-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      font-size: 1.6rem;
+      row-gap: 20px;
+    }
+
+    .main-title {
+      text-transform: uppercase;
+      margin-top: 1.5em;
+      font-size: 4rem;
+      color: chocolate;
+    }
+
+    .showcase-container p {
+      color: white;
+    }
+
+    /* ......//about us//...... */
+
+    #about {
+      padding: 50px 0;
+      background: #f5f5f7;
+    }
+
+    .about-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    #about h2 {
+      font-size: 2.3rem;
+    }
+
+    #about p {
+      font-size: 1.2rem;
+      color: #555;
+    }
+
+    #about .small {
+      font-size: 1.2rem;
+      color: #666;
+      font-weight: 600;
+    }
+
+    .about-img {
+      flex: 1 1 400px;
+      padding: 30px;
+      transform: translateX(150%);
+      animation: about-img-animation 1s ease-in-out forwards;
+    }
+
+    @keyframes about-img-animation {
+      100% {
+        transform: translate(0);
+      }
+    }
+
+    .about-text {
+      flex: 1 1 400px;
+      padding: 30px;
+      margin: auto;
+      transform: translate(-150%);
+      animation: about-text-animation 1s ease-in-out forwards;
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+      text-align: justify;
+    }
+
+    @keyframes about-text-animation {
+      100% {
+        transform: translate(0);
+      }
+    }
+
+    .about-img img {
+      display: block;
+      height: 400px;
+      margin: auto;
+      object-fit: cover;
+      object-position: right;
+      width: 400px;
+      border-radius: 50%;
+    }
+
+    /* ..........////Food category///........... */
+
+
+
+
+    #food-menu {
+      background-color: whitesmoke;
+      padding-top: 30px;
+    }
+
+    #food {
+      padding: 5rem 0 10rem 0;
+    }
+
+    #food h2 {
+      text-align: center;
+      font-size: 2.5rem;
+      font-weight: 400;
+      margin-bottom: 40px;
+      text-transform: uppercase;
+      color: black;
+      font-weight: 700;
+    }
+
+    .food-container {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .food-container img {
+      display: block;
+      width: 100%;
+      margin: auto;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+      object-position: center;
+    }
+
+    .img-container {
+      margin: 0 1rem;
+      position: relative;
+    }
+
+    .img-content {
+      position: absolute;
+      top: 70%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      opacity: 0;
+      z-index: 2;
+      text-align: center;
+      transition: all 0.3s ease-in-out 0.1s;
+    }
+
+    .img-content h3 {
+      color: #fff;
+      font-size: 2.2rem;
+    }
+
+    .img-content a {
+      font-size: 1.2rem;
+    }
+
+    .img-container::after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.871);
+      opacity: 0;
+      z-index: 1;
+
+      transform: scaleY(0);
+      transform-origin: 100% 100%;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .img-container:hover::after {
+      opacity: 1;
+      transform: scaleY(1);
+    }
+
+    .img-container:hover .img-content {
+      opacity: 1;
+      top: 40%;
+    }
+
+    /* .........../Food Menu/............ */
+
+    .food-menu-heading {
+      text-align: center;
+      font-size: 3.4rem;
+      color: black;
+      font-weight: 700;
+    }
+
+    .food-menu-container {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 50px 0px 30px 0px;
+    }
+
+    .food-menu-container img {
+      display: block;
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .food-menu-item {
+      display: flex;
+      flex: 1 1 600px;
+      justify-content: space-evenly;
+      margin-bottom: 3rem;
+    }
+
+    .food-description {
+      margin: auto 1.5rem;
+    }
+
+    .font-title {
+      font-size: 1.8rem;
+      font-weight: 400;
+      color: #444;
+    }
+
+    .food-description p {
+      font-size: 1.4rem;
+      color: #555;
+      font-weight: 500;
+    }
+
+    .food-description .food-price {
+      color: #117964;
+      font-weight: 700;
+    }
+
+
+
+    /* ........./ Testimonial /.......... */
+
+    #testimonials {
+      padding: 5rem 0;
+      background-color: white;
+    }
+
+    .testimonial-title {
+      text-align: center;
+      font-size: 2.8rem;
+      color: black;
+      font-weight: 700;
+    }
+
+    .testimonial-container {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+      column-gap: 20px;
+    }
+
+    .testimonial-box .checked {
+      color: #ff9529;
+    }
+
+    .testimonial-box .testimonial-text {
+      margin: 1rem 0;
+      color: #444;
+    }
+
+    .testimonial-box {
+      text-align: center;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    .customer-photo img {
+      display: block;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 50%;
+      margin: auto;
+    }
+
+    .customer-photo p {
+      padding-top: 20px;
+    }
+
+    /* ........ Contact Us........... */
+
+    .contacts {
+      position: relative;
+      /* Make it a positioned element for the pseudo-element */
+      padding: 4rem 0;
+      width: 100%;
+      height: 100vh;
+      /* Full viewport height */
+      overflow: hidden;
+      /* Ensure no overflow from pseudo-element */
+      color: #fff;
+      /* Optional: Adjust text color for visibility */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* Center content */
+      text-align: center;
+      /* Optional: Center text */
+    }
+
+    .contacts::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url("static/images/contact.jpg");
+      /* Ensure this path is correct */
+      background-size: cover;
+      background-position: center;
+      opacity: 0.3;
+      /* Adjust opacity here (0 to 1) */
+      z-index: 1;
+      /* Ensure background image is below the content */
+    }
+
+    .contacts>* {
+      position: relative;
+      /* Ensure content is above the background */
+      z-index: 2;
+    }
+
+    #contact {
+      padding: 5rem 0;
+      width: 100%;
+      height: 100%;
+      background: rgb(226, 226, 226);
+    }
+
+    .contact-container {
+      display: flex;
+      background: #fff;
+      border-radius: 10px;
+      padding: 20px;
+    }
+
+    .contact-img {
+      width: 50%;
+    }
+
+    .contact-img img {
+      display: block;
+      height: 420px;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      width: 100%;
+      object-position: center;
+      object-fit: cover;
+    }
+
+    .form-container {
+      padding: 1rem;
+      width: 50%;
+      margin: auto;
+    }
+
+    .form-container input {
+      display: block;
+      width: 100%;
+      padding: 1rem 0;
+      box-shadow: none;
+      outline: none;
+      margin-bottom: 1rem;
+      color: #444;
+      font-weight: 500;
+      background: whitesmoke;
+      padding-left: 20px;
+      border: 1px solid;
+      border-radius: 10px;
+    }
+
+    .form-container textarea {
+      display: block;
+      width: 100%;
+      border: none;
+      display: block;
+      width: 100%;
+      padding: 1rem 0;
+      box-shadow: none;
+      outline: none;
+      margin-bottom: 1rem;
+      color: #444;
+      font-weight: 500;
+      background: whitesmoke;
+      padding-left: 20px;
+      border: 1px solid;
+      border-radius: 10px;
+      color: #444;
+      outline: none;
+      resize: none;
+    }
+
+    .form-container h2 {
+      font-size: 2.7rem;
+      color: black;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      margin-top: -1.2rem;
+    }
+
+    .form-container a {
+      font-size: 1.3rem;
+    }
+
+    #footer h2 {
+      text-align: center;
+      font-size: 1.8rem;
+      padding: 0.6rem;
+      font-weight: 500;
+      color: black;
+      background: white;
+    }
+
+    /* ......../ media query /.......... */
+
+    @media (max-width: 768px) {
+      .navbar {
+        opacity: 0.95;
+      }
+
+      .navbar-container input[type="checkbox"],
+      .navbar-container .hamburger-lines {
+        display: block;
+      }
+
+      .navbar-container {
+        display: block;
+        position: relative;
+        height: 64px;
+      }
+
+      .navbar-container input[type="checkbox"] {
+        position: absolute;
+        display: block;
+        height: 32px;
+        width: 30px;
+        top: 20px;
+        left: 20px;
+        z-index: 5;
+        opacity: 0;
+      }
+
+      .navbar-container .hamburger-lines {
+        display: block;
+        height: 23px;
+        width: 35px;
+        position: absolute;
+        top: 17px;
+        left: 20px;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      .navbar-container .hamburger-lines .line {
+        display: block;
+        height: 4px;
+        width: 100%;
+        border-radius: 10px;
+        background: #333;
+      }
+
+      .navbar-container .hamburger-lines .line1 {
+        transform-origin: 0% 0%;
+        transition: transform 0.4s ease-in-out;
+      }
+
+      .navbar-container .hamburger-lines .line2 {
+        transition: transform 0.2s ease-in-out;
+      }
+
+      .navbar-container .hamburger-lines .line3 {
+        transform-origin: 0% 100%;
+        transition: transform 0.4s ease-in-out;
+      }
+
+      .navbar .menu-items {
+        padding-top: 100px;
+        background: #fff;
+        height: 100vh;
+        max-width: 300px;
+        transform: translate(-150%);
+        display: flex;
+        flex-direction: column;
+        margin-left: -40px;
+        padding-left: 50px;
+        transition: transform 0.5s ease-in-out;
+        box-shadow: 5px 0px 10px 0px #aaa;
+      }
+
+      .navbar .menu-items li {
+        margin-bottom: 1.5rem;
+        font-size: 1.3rem;
+        font-weight: 500;
+      }
+
+      .logo {
+        position: absolute;
+        top: 5px;
+        right: 15px;
+        font-size: 2rem;
+      }
+
+      .navbar-container input[type="checkbox"]:checked~.menu-items {
+        transform: translateX(0);
+      }
+
+      .navbar-container input[type="checkbox"]:checked~.hamburger-lines .line1 {
+        transform: rotate(35deg);
+      }
+
+      .navbar-container input[type="checkbox"]:checked~.hamburger-lines .line2 {
+        transform: scaleY(0);
+      }
+
+      .navbar-container input[type="checkbox"]:checked~.hamburger-lines .line3 {
+        transform: rotate(-35deg);
+      }
+
+      /* ......./ food /......... */
+
+      .food-container {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .food-type:not(:last-child) {
+        margin-bottom: 3rem;
+      }
+
+      .food-type {
+        box-shadow: 5px 5px 10px 0 #aaa;
+      }
+
+      .img-container {
+        margin: 0;
+      }
+    }
+
+    @media (max-width: 500px) {
+      html {
+        font-size: 65%;
+      }
+
+      .navbar .menu-items li {
+        font-size: 1.6rem;
+      }
+
+      .testimonial-container {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .food-menu-container img {
+        margin: auto;
+      }
+
+      .food-menu-item {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .form-container {
+        width: 90%;
+      }
+
+      .contact-container {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .contact-img {
+        width: 90%;
+        margin: 3rem auto;
+      }
+
+      .logo {
+        position: absolute;
+        top: 06px;
+        right: 15px;
+        font-size: 3rem;
+      }
+
+      .navbar .menu-items li {
+        margin-bottom: 2.5rem;
+        font-size: 1.8rem;
+        font-weight: 500;
+      }
+    }
+
+    @media (min-width: 769px) and (max-width: 1200px) {
+      .img-container h3 {
+        font-size: 1.5rem;
+      }
+
+      .img-container .btn {
+        font-size: 0.7rem;
+      }
+    }
+
+    @media (orientation: landscape) and (max-height: 500px) {
+      .showcase-area {
+        height: 50vmax;
+      }
+    }
+
+
+    /*Menu Header*/
+    header {
+      background-color: #333;
+      padding: 20px 0;
+      color: #fff;
+      text-align: center;
+    }
+
+    .header-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 10px 0 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      margin-left: 20px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+      padding: 10px 15px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      background-color: #f0f0f0;
+    }
+
+    .menu-items a:hover {
+      color: rgb(209, 60, 85);
+
+      transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out;
+    }
+
+    /* Optional: Margin for main content to prevent overlap */
+    main {
+      padding: 20px;
+    }
+
+
+    /*Suggesstion style*/
+    .suggestion {
+      position: relative;
+      /* Make it a positioned element for the pseudo-element */
+      padding: 4rem 0;
+      width: 100%;
+      height: 100vh;
+      /* Use viewport height for full screen */
+      overflow: hidden;
+      /* Ensure no overflow from pseudo-element */
+      /* Optional: Adjust text color for visibility */
+    }
+
+    .suggestion::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url("static/images/bg.jpg");
+      /* Use correct relative path */
+      background-size: cover;
+      background-position: center;
+      opacity: 0.3;
+      /* Adjust opacity here (0 to 1) */
+      z-index: 1;
+      /* Ensure background image is below the content */
+    }
+
+    .suggestion>* {
+      position: relative;
+      /* Ensure content is above the background */
+      z-index: 2;
+    }
+
+
+
+    /* Ensure the body has no margin and is full height */
+
+    body.SuggestionBody {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      /* Prevents scrollbars */
+    }
+
+    .background {
+      position: fixed;
+      /* Stays in place when scrolling */
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      z-index: -1;
+      /* Sends it behind other content */
+    }
+
+    .background img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      /* Ensures the image covers the container */
+      opacity: 0.3;
+      /* Adjust the opacity to your preference */
+    }
+
+    .SuggestionBody {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Style for the navbar */
+    .navbar {
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      background: #fff;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+      /* Ensure it stays above other content */
+    }
+
+    .navbar-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+    }
+
+    .menu-items {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    .menu-items li {
+      margin-right: 20px;
+    }
+
+    .menu-items a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    /* Style for the logo */
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    /* Container for centering content */
+    .content-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: calc(100vh - 60px);
+      /* Adjust height based on navbar height */
+      padding-top: 60px;
+      /* Adjust padding to avoid overlap with navbar */
+    }
+
+    /* Style for the suggestion container */
+    .suggestioncontainer {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 700px;
+      max-width: 100%;
+    }
+
+    /* Style for form groups */
+    .suggestionform-group {
+      margin-bottom: 15px;
+    }
+
+    .suggestionform-group label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    .suggestionform-group select {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    /* Add a wrapper around the button */
+    .suggestionform-group .button-wrapper {
+      text-align: center;
+      /* Center the button */
+    }
+
+    .suggestionform-group button {
+      padding: 10px 20px;
+      background-color: #28a745;
+      /* Green color */
+      color: #fff;
+      /* White text */
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .suggestionform-group button:hover {
+      background-color: #218838;
+    }
+
+    #result {
+      margin-top: 20px;
+      font-size: 18px;
+    }
+
+
+
+
+    /*testonomial*/
+    /* Styling for the testimonials section */
+    .testimonial-title {
+      text-align: center;
+      font-size: 2rem;
+      margin: 20px 0;
+      color: #333;
+    }
+
+    .testimonial-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .testimonial-box {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin: 10px 0;
+      padding: 20px;
+      width: 80%;
+      max-width: 600px;
+      text-align: center;
+    }
+
+    .customer-detail {
+      margin-bottom: 10px;
+    }
+
+    .customer-photo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .customer-photo img {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+
+    .customer-name {
+      font-size: 1.1rem;
+      color: #555;
+    }
+
+    .star-rating {
+      margin: 10px 0;
+    }
+
+    .fa-star {
+      color: #f1c40f;
+      font-size: 1.5rem;
+    }
+
+    .checked {
+      color: #f1c40f;
+    }
+
+    .testimonial-text {
+      font-size: 1rem;
+      color: #666;
+    }
+
+
+
+
+    /* About Section */
+    .about {
+      background-color: #f5f5f7;
+      border-radius: 10px;
+      padding: 2rem;
+    }
+
+    .about p {
+      font-size: 1.2rem;
+      color: #666;
+    }
+
+    /* Vision Section */
+    .vision {
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 2rem;
+    }
+
+    .vision p {
+      font-size: 1.2rem;
+      color: #666;
+    }
+
+    /* What We Do Section */
+    .what-we-do {
+      background-color: #fff;
+      padding: 2rem;
+    }
+
+    .card {
+      background-color: #f5f5f7;
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .card h3 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .card p {
+      font-size: 1rem;
+    }
+
+    /* How It Works Section */
+    .how-it-works {
+      background-color: #fff;
+      padding: 2rem;
+      border-radius: 10px;
+    }
+
+    .how-it-works ol {
+      padding-left: 1.5rem;
+    }
+
+    .how-it-works li {
+      margin-bottom: 1rem;
+      font-size: 1.1rem;
+    }
+
+    /* Why Choose Us Section */
+    .why-choose-us {
+      background-color: #f5f5f7;
+      padding: 2rem;
+      border-radius: 10px;
+    }
+
+    .why-choose-us ul {
+      padding-left: 1.5rem;
+    }
+
+    .why-choose-us li {
+      margin-bottom: 1rem;
+      font-size: 1.1rem;
+    }
+
+    /* Meet The Team Section */
+    .meet-the-team {
+      background-color: #fff;
+      padding: 2rem;
+      border-radius: 10px;
+    }
+
+    .meet-the-team p {
+      font-size: 1.2rem;
+      color: #666;
+    }
+
+    /* Join Us Section */
+    .join-us {
+      background-color: #f5f5f7;
+      padding: 2rem;
+      border-radius: 10px;
+    }
+
+    .join-us p {
+      font-size: 1.2rem;
+    }
+
+    .join-us a {
+      color: #117964;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .join-us a:hover {
+      text-decoration: underline;
+    }
+
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+      section {
+        padding: 1rem;
+      }
+    }
+  </style>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+
+
+
+
+<body>
+  <nav class="navbar">
+    <div class="navbar-container container">
+      <h1 class="logo">DishDelight</h1>
+
+      <div class="hamburger-lines">
+        <span class="line line1"></span>
+        <span class="line line2"></span>
+        <span class="line line3"></span>
+      </div>
+
+      <ul class="menu-items">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#suggestions">Suggestions</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#review">Testimonial</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Showcase Section -->
+  <section class="showcase-area" id="showcase">
+    <div class="showcase-container">
+      <h1 class="main-title" id="home">Eat Right Food</h1>
+      <p>Eat Healthy, it is good for our health.</p>
+      <a href="#menu" class="btn btn-primary">Menu</a>
+    </div>
+  </section>
+
+  <!-- Food Section -->
+  <section id="food">
+    <h2>Types of food</h2>
+    <div class="food-container container">
+      <div class="food-type fruite">
+        <div class="img-container">
+          <img decoding="async" src="https://i.postimg.cc/yxThVPXk/food1.jpg" alt="error" />
+          <div class="img-content">
+            <h3>Fruit</h3>
+            <a href="https://en.wikipedia.org/wiki/Fruit" class="btn btn-primary" target="blank" rel="noopener">learn
+              more</a>
+          </div>
+        </div>
+      </div>
+      <div class="food-type vegetable">
+        <div class="img-container">
+          <img decoding="async" src="https://i.postimg.cc/Nffm6Rkk/food2.jpg" alt="error" />
+          <div class="img-content">
+            <h3>Vegetable</h3>
+            <a href="https://en.wikipedia.org/wiki/Vegetable" class="btn btn-primary" target="blank"
+              rel="noopener">learn more</a>
+          </div>
+        </div>
+      </div>
+      <div class="food-type grin">
+        <div class="img-container">
+          <img decoding="async" src="https://i.postimg.cc/76ZwsPsd/food3.jpg" alt="error" />
+          <div class="img-content">
+            <h3>Grain</h3>
+            <a href="https://en.wikipedia.org/wiki/Grain" class="btn btn-primary" target="blank" rel="noopener">learn
+              more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- about section-->
+  <section class="about" id="about"></section>
+  <h2>Welcome to DishDelight!</h2>
+  <p>At DishDelight, we believe that every meal should be an exceptional experience. We’re dedicated to transforming the
+    way you dine by offering personalized menu recommendations that cater to your unique preferences, dietary needs, and
+    current context. Our cutting-edge AI technology is designed to enhance your dining journey, making every meal not
+    just enjoyable but unforgettable.</p>
+  </section>
+
+  <section class="vision">
+    <h2>Our Vision</h2>
+    <p>Imagine a dining experience where every dish feels like it was made just for you. That’s the future we’re
+      creating with DishDelight. We aim to take the guesswork out of choosing your next meal by leveraging advanced
+      artificial intelligence to deliver tailored recommendations. Whether you’re revisiting an old favorite or
+      venturing into new culinary territory, our system ensures that each recommendation is spot-on.</p>
+  </section>
+
+  <section class="what-we-do">
+    <h2>What We Do</h2>
+    <div class="card">
+      <h3>Personalized Recommendations</h3>
+      <p>Our AI-driven system considers your past orders, dietary restrictions, and favorite cuisines to suggest dishes
+        you’re most likely to enjoy.</p>
+    </div>
+    <div class="card">
+      <h3>Real-Time Adaptation</h3>
+      <p>We integrate real-time data like weather conditions and local events to ensure that our recommendations are
+        relevant and timely.</p>
+    </div>
+    <div class="card">
+      <h3>Smart Inventory Management</h3>
+      <p>By aligning recommendations with the restaurant’s inventory, we help reduce food waste and enhance your dining
+        experience.</p>
+    </div>
+  </section>
+
+  <section class="how-it-works">
+    <h2>How It Works</h2>
+    <ol>
+      <li><strong>Data Collection:</strong> We gather insights from your order history, user profiles, feedback forms,
+        and real-time data to build a comprehensive understanding of your preferences.</li>
+      <li><strong>Intelligent Analysis:</strong> Our sophisticated algorithms analyze patterns and predict what you’re
+        likely to enjoy based on your profile and current conditions.</li>
+      <li><strong>Tailored Recommendations:</strong> Using a blend of collaborative and content-based filtering, we
+        generate suggestions that are both personalized and delightful.</li>
+      <li><strong>Seamless Integration:</strong> Our system integrates smoothly with existing restaurant management
+        tools, providing you with recommendations via tablets, mobile apps, and digital menu boards.</li>
+    </ol>
+  </section>
+
+  <section class="why-choose-us">
+    <h2>Why Choose DishDelight?</h2>
+    <ul>
+      <li><strong>Enhanced Experience:</strong> Enjoy meals that are perfectly suited to your taste and current context.
+      </li>
+      <li><strong>Increased Satisfaction:</strong> Discover new favorites and make every dining experience exceptional.
+      </li>
+      <li><strong>Reduced Waste:</strong> Support sustainable dining practices with smart, inventory-based
+        recommendations.</li>
+    </ul>
+  </section>
+
+  <section class="meet-the-team">
+    <h2>Meet the Team</h2>
+    <p>Our team of dedicated professionals is passionate about using technology to improve your dining experience. From
+      our AI experts to our customer support staff, every member of DishDelight is committed to ensuring that you have
+      the best possible experience.</p>
+  </section>
+
+  <section class="join-us">
+    <h2>Join Us</h2>
+    <p>Ready to elevate your dining experience? Explore our personalized recommendations and discover how DishDelight
+      can make every meal a special occasion. For more information or to get in touch with us, visit our <a
+        href="#">Contact Page</a>.</p>
+  </section>
+  </main>
+
+
+
+<!-- Suggestion Form-->
+  <section id="suggestions" class="suggestion">
+    <div class="content-wrapper">
+        <div class="suggestioncontainer">
+            <h1>Meal Selector</h1>
+  
+            <form action="/predict" method="POST">
+
+              <div class="suggestionform-group">
+
+                    <label for="diet">Choose Dieting Level:</label>
+                    <select id="Dieting_Level" name="Dieting_Level">
+                        <option value="strict">Strict</option>
+                        <option value="moderate">Moderate</option>
+                        <option value="non-dieting">Non-Dieting</option>
+                    </select>
+                </div>
+  
+                <div class="suggestionform-group">
+                    <label for="spice">Choose Spice Level:</label>
+                    <select id="Spice_Level" name="Spice_Level">
+                        <option value="spicy">Spicy</option>
+                        <option value="medium">Medium</option>
+                        <option value="mild">Mild</option>
+                    </select>
+                </div>
+  
+                <div class="suggestionform-group">
+                    <label for="meal">Choose a Meal Type:</label>
+                    <select id="Time_of_Day" name="Time_of_Day">
+                        <option value="breakfast">Breakfast</option>
+                        <option value="lunch">Lunch</option>
+                        <option value="dinner">Dinner</option>
+                        <option value="snack">Snack</option>
+                    </select>
+                </div>
+  
+                <div class="suggestionform-group">
+                    <label for="Age_Group">Choose Age Group:</label>
+                    <select id="Age_Group" name="Age_Group">
+                        <option value="child">Child</option>
+                        <option value="adult">Adult</option>
+                        <option value="senior">Senior</option>
+                    </select>
+                </div>
+  
+                <div class="suggestionform-group">
+                    <label for="cuisine">Choose a Preferred Cuisine:</label>
+                    <select id="Preferred_Cuisine" name="Preferred_Cuisine">
+                        <option value="italian">Italian</option>
+                        <option value="chinese">Chinese</option>
+                        <option value="mexican">Mexican</option>
+                        <option value="indian">Indian</option>
+                        <option value="japanese">Japanese</option>
+                        <option value="thai">Thai</option>
+                        <option value="greek">Greek</option>
+                        <option value="french">French</option>
+                        <option value="spanish">Spanish</option>
+                        <option value="korean">Korean</option>
+                        <option value="vietnamese">Vietnamese</option>
+                        <option value="turkish">Turkish</option>
+                        <option value="moroccan">Moroccan</option>
+                        <option value="cuban">Cuban</option>
+                        <option value="american">American</option>
+                    </select>
+                </div>
+  
+                <div class="suggestionform-group">
+                    <button type="submit" id="submitBtn">Submit</button>
+                </div>
+                
+            </form>
+  
+            <div id="result"></div>
+          </div>
+    </div>
+</section>
+  
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Menu Section -->
+  <section id="menu" class="menus">
+    <section id="veg-menu">
+      <h2>Vegetarian Dishes</h2>
+      <div class="food-menu-container">
+        <!-- Example Veg Dish -->
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="{{ url_for('static', filename='images/panner.jpg') }}" alt="Idli Sambar" />
+          </div>
+          <div class="food-description">
+            <h3>Paneer Butter Masala</h3>
+            <p>A creamy and savory North Indian dish featuring tender paneer cubes in a rich tomato and butter sauce.
+            </p>
+            <p class="food-price">Price: &#8377; 250</p>
+          </div>
+        </div>
+
+
+
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="{{ url_for('static', filename='images/idli.jpg') }}" alt="Idli Sambar" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-title">Idli Sambar</h2>
+            <p>
+              A popular South Indian breakfast dish consisting of steamed rice cakes (idli) served with a spicy lentil
+              stew (sambar) and coconut chutney.
+            </p>
+            <p class="food-price">Price: &#8377; 180</p>
+          </div>
+        </div>
+
+        <div class="food-menu-item">
+          <div class="food-img">
+          
+            <img src="{{ url_for('static', filename='images/chole.jpg') }}" alt="Idli Sambar" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-title">Chole Bhature</h2>
+            <p>
+              A popular North Indian dish consisting of spicy chickpea curry (chole) served with deep-fried bread
+              (bhature). It's a hearty and flavorful meal enjoyed across India.
+            </p>
+            <p class="food-price">Price: &#8377; 250</p>
+          </div>
+        </div>
+
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="{{ url_for('static', filename='images/litti.jpg') }}" alt="Litti Chokha" />
+
+          </div>
+          <div class="food-description">
+            <h2 class="food-title">Litti Chokha</h2>
+            <p>
+              A traditional dish from Bihar, Litti Chokha consists of round wheat flour balls (litti) stuffed with
+              roasted gram flour and spices, served with a spiced mashed vegetable (chokha) made of eggplant, tomatoes,
+              and potatoes.
+            </p>
+            <p class="food-price">Price: &#8377; 300</p>
+          </div>
+        </div>
+
+
+        <!-- Dish 4 -->
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="{{ url_for('static', filename='images/Briyani.jpg') }}" alt="Hyderabadi Biryani" />
+
+          </div>
+          <div class="food-description">
+            <h2 class="food-title">Hyderabadi Veg Biryani</h2>
+            <p>
+              A fragrant rice dish from Hyderabad, prepared with layers of marinated meat and saffron-infused rice.
+              Known for its rich flavor and aromatic spices.
+            </p>
+            <p class="food-price">Price: &#8377; 400</p>
+          </div>
+        </div>
+
+        <!-- Dish 5 -->
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="{{ url_for('static', filename='images/daal.jpg') }}" alt="Dal Makhani" />
+
+          </div>
+          <div class="food-description">
+            <h2 class="food-title">Dal Makhani</h2>
+            <p>
+              A rich and creamy lentil dish made with black lentils and kidney beans. Cooked with butter and cream, it's
+              a staple in Punjabi cuisine.
+            </p>
+            <p class="food-price">Price: &#8377; 250</p>
+          </div>
+        </div>
+
+        <!-- Dish 6 -->
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="{{ url_for('static', filename='images/Dhokla.jpg') }}" alt="Dhokla" />
+
+          </div>
+          <div class="food-description">
+            <h2 class="food-title">Dhokla</h2>
+            <p>
+              A steamed savory cake from Gujarat, made from fermented rice and chickpea batter. Light and fluffy, it's a
+              popular snack or breakfast item.
+            </p>
+            <p class="food-price">Price: &#8377; 120</p>
+          </div>
+        </div>
+
+        <!-- Dish 7 -->
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="{{ url_for('static', filename='images/vadapav.jpg') }}" alt="Hyderabadi Biryani" />
+
+          </div>
+          <div class="food-description">
+            <h2 class="food-title">Vada Pav</h2>
+            <p>
+              A popular Mumbai street food consisting of a spicy potato fritter (vada) served in a bun (pav) with
+              chutneys and spices. It's a flavorful and filling snack.
+            </p>
+            <p class="food-price">Price: &#8377; 90</p>
+          </div>
+        </div>
+
+
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img decoding="async"
+              src="https://images.unsplash.com/photo-1505253758473-96b7015fcd40?w=500&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aW5kaWFuJTIwZm9vZHxlbnwwfHwwfHx8MA%3D%3D"
+              alt="" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-titile">Mushroom Masala</h2>
+            <p>
+              A rich and aromatic curry featuring tender mushrooms cooked in a blend of spices, tomatoes, and cream.
+              Perfectly spiced and flavorful, this dish pairs wonderfully with rice or naan.
+
+            </p>
+            <p class="food-price">Price: &#8377; 250</p>
+          </div>
+        </div>
+        <!-- Add more Veg dishes here -->
+      </div>
+    </section>
+
+    <section id="non-veg-menu">
+      <h2>Non-Vegetarian Dishes</h2>
+      <div class="food-menu-container">
+        <!-- Example Non-Veg Dish -->
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="{{ url_for('static', filename='images/chickem.jpg') }}" alt="Butter Chicken" />
+          </div>
+          <div class="food-description">
+            <h3>Butter Chicken</h3>
+            <p>Creamy and rich chicken curry cooked with butter and tomatoes.</p>
+            <p class="food-price">Price: &#8377; 300</p>
+          </div>
+        </div>
+
+        <!-- Handi Chicken -->
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="{{ url_for('static', filename='images/handichicken.jpg') }}" alt="Handi Chicken" />
+          </div>
+          <div class="food-description">
+            <h3>Handi Chicken</h3>
+            <p>Traditional chicken curry cooked slowly in a clay pot for rich flavors.</p>
+            <p class="food-price">Price: &#8377; 340</p>
+          </div>
+        </div>
+
+        <!-- Kadhai Chicken -->
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="{{ url_for('static', filename='images/kadhai_chick.jpg') }}" alt="Kadhai Chicken" />
+          </div>
+          <div class="food-description">
+            <h3>Kadhai Chicken</h3>
+            <p>Chicken cooked with capsicum, onions, and flavorful spices.</p>
+            <p class="food-price">Price: &#8377; 320</p>
+          </div>
+        </div>
+
+
+        <!-- Mutton Curry -->
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="{{ url_for('static', filename='images/mutton.jpg') }}" alt="Mutton Curry" />
+          </div>
+          <div class="food-description">
+            <h3>Mutton Curry</h3>
+            <p>Spicy and flavorful mutton cooked with aromatic spices.</p>
+            <p class="food-price">Price: &#8377; 350</p>
+          </div>
+        </div>
+
+        <!-- Fish Curry -->
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="{{ url_for('static', filename='images/fish.jpg') }}" alt="Fish Curry" />
+          </div>
+          <div class="food-description">
+            <h3>Fish Curry</h3>
+            <p>Delicious fish simmered in a tangy tamarind sauce.</p>
+            <p class="food-price">Price: &#8377; 250</p>
+          </div>
+        </div>
+
+
+
+        <!-- Egg Curry -->
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="{{ url_for('static', filename='images/egg.jpg') }}" alt="Egg Curry" />
+
+          </div>
+          <div class="food-description">
+            <h3>Egg Curry</h3>
+            <p>Boiled eggs cooked in a spicy onion and tomato gravy.</p>
+            <p class="food-price">Price: &#8377; 200</p>
+          </div>
+        </div>
+
+
+
+        <!-- Add more Non-Veg dishes here -->
+      </div>
+
+
+
+    </section>
+
+    <section id="snacks-menu">
+      <h2>Snacks</h2>
+      <div class="food-menu-container">
+        <!-- Example Snack -->
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="{{ url_for('static', filename='images/samosa.jpg') }}" alt="Samosa" />
+
+          </div>
+          <div class="food-description">
+            <h3>Samosa</h3>
+            <p>Crispy and golden fried pastry filled with a savory mix of spiced potatoes.</p>
+            <p class="food-price">Price: &#8377; 50</p>
+          </div>
+        </div>
+        <!-- Add more Snacks here -->
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img decoding="async"
+              src="https://plus.unsplash.com/premium_photo-1691030658159-e8e29b2b12b9?w=500&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGluZGlhbiUyMGZvb2R8ZW58MHx8MHx8fDA%3D"
+              alt="" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-titile">Golgappa</h2>
+            <p>
+              Crispy, hollow puris filled with a tangy and spicy tamarind water, spicy potato filling, and a medley of
+              chutneys. A popular and refreshing street snack that’s bursting with flavor.
+
+            </p>
+            <p class="food-price">Price: &#8377; 250</p>
+          </div>
+        </div>
+
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img decoding="async"
+              src="https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=500&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGluZGlhbiUyMGZvb2R8ZW58MHx8MHx8fDA%3D"
+              alt="" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-titile">Pav Bhaji</h2>
+            <p>
+              A hearty and flavorful mix of spiced mashed vegetables served with butter-toasted pav (bread rolls). This
+              Mumbai street food classic is a delightful combination of rich flavors and textures.
+
+            </p>
+            <p class="food-price">Price: &#8377; 250</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+
+  <!-- Review Section-->
+  <section id="review">
+    <h2 class="testimonial-title">What Our Customers Say</h2>
+    <div class="testimonial-container container">
+      <div class="testimonial-box">
+        <div class="customer-detail">
+          <div class="customer-photo">
+            <img decoding="async" src="https://i.postimg.cc/5Nrw360Y/male-photo1.jpg" alt="" />
+            <p class="customer-name">Mr. ABC</p>
+          </div>
+        </div>
+        <div class="star-rating">
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+        </div>
+        <p class="testimonial-text">
+          "Delicious food and great service! Highly recommend the biryani."
+        </p>
+
+      </div>
+      <div class="testimonial-box">
+        <div class="customer-detail">
+          <div class="customer-photo">
+            <img decoding="async" src="https://i.postimg.cc/sxd2xCD2/female-photo1.jpg" alt="" />
+            <p class="customer-name">Mrs. XYZ </p>
+          </div>
+        </div>
+        <div class="star-rating">
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+        </div>
+        <p class="testimonial-text">
+          The food here is absolutely amazing! The spices are perfectly balanced, and the variety is impressive. Highly
+          recommend for anyone craving authentic Indian cuisine.
+        </p>
+
+      </div>
+      <div class="testimonial-box">
+        <div class="customer-detail">
+          <div class="customer-photo">
+            <img decoding="async" src="https://i.postimg.cc/fy90qvkV/male-photo3.jpg" alt="" />
+            <p class="customer-name">Mr. PQR</p>
+          </div>
+        </div>
+        <div class="star-rating">
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+        </div>
+        <p class="testimonial-text">
+          An excellent dining experience! The dishes are flavorful and authentic, and the service is exceptional. I will
+          definitely be coming back for more!
+
+        </p>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+  <!-- contact section-->
+
+  <section id="contact" class="contacts">
+    <div class="contact-container container">
+      <div class="contact-img">
+        <img src="{{ url_for('static', filename='images/contact.jpg') }}" alt="contact" />
+
+      </div>
+      <div class="form-container">
+        <h2>Contact Us</h2>
+        <textarea cols="30" rows="6"></textarea>
+        <a href="#" class="btn btn-primary">Submit</a>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+  <footer id="footer">
+    <h2>Restraunt &copy; all rights reserved</h2>
+  </footer>
+
+
+
+
+  <script>
+    document.getElementById('mealForm').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent the form from submitting the traditional way
+
+        const diet = document.getElementById('Dieting_Level').value;
+        const spice = document.getElementById('Spice_Level').value;
+        const meal = document.getElementById('Time_of_Day').value;
+        const ageGroup = document.getElementById('Age_Group').value;
+        const cuisine = document.getElementById('Preferred_Cuisine').value;
+
+        // Create output string
+        const output = `
+            <h2>Your Meal Selection</h2>
+            <p><strong>Dieting Level:</strong> ${diet}</p>
+            <p><strong>Spice Level:</strong> ${spice}</p>
+            <p><strong>Meal Type:</strong> ${meal}</p>
+            <p><strong>Age Group:</strong> ${ageGroup}</p>
+            <p><strong>Preferred Cuisine:</strong> ${cuisine}</p>
+        `;
+
+        // Display the result
+        document.getElementById('result').innerHTML = output;
+    });
+  </script>
+</body>
+
+</html>
