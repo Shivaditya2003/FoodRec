@@ -1,0 +1,1001 @@
+Dish,Dieting_Level,Spice_Level,Time_of_Day,Age_Group,Preferred_Cuisine
+Lasagna,High,Medium,Dinner,Senior,Italian
+Sweet & Sour,Medium,Medium,Dinner,Child,Chinese
+Quesadilla,High,Spicy,Lunch,Senior,Mexican
+Sweet & Sour,Low,Spicy,Dinner,Child,Chinese
+Idli,High,Spicy,Breakfast,Senior,Indian
+Fried Rice,Low,Medium,Lunch,Child,Chinese
+Frittata,Low,Mild,Breakfast,Adult,Italian
+Fries,Low,Medium,Lunch,Senior,American
+Tandoori,High,Mild,Dinner,Child,Indian
+Biryani,High,Spicy,Lunch,Child,Indian
+Frittata,Medium,Spicy,Breakfast,Senior,Italian
+Fries,Medium,Mild,Lunch,Child,American
+Burger,High,Spicy,Lunch,Senior,American
+Idli,Low,Medium,Breakfast,Adult,Indian
+Salad,High,Mild,Dinner,Senior,American
+Pancakes,High,Medium,Breakfast,Adult,American
+Sweet & Sour,High,Mild,Dinner,Child,Chinese
+Pancakes,Low,Spicy,Breakfast,Adult,American
+Enchilada,Low,Mild,Dinner,Adult,Mexican
+Pancakes,Medium,Medium,Breakfast,Adult,American
+Burrito,Low,Medium,Lunch,Adult,Mexican
+Steak,High,Spicy,Dinner,Child,American
+Chili,Low,Spicy,Dinner,Senior,Mexican
+Tandoori,Low,Medium,Dinner,Adult,Indian
+Chili,Low,Mild,Dinner,Senior,Mexican
+Tacos,Low,Spicy,Breakfast,Adult,Mexican
+Quesadilla,High,Medium,Lunch,Child,Mexican
+Curry,Medium,Mild,Lunch,Senior,Indian
+Enchilada,Medium,Mild,Dinner,Child,Mexican
+Noodles,Low,Medium,Lunch,Senior,Chinese
+Curry,Low,Spicy,Lunch,Child,Indian
+Lasagna,High,Spicy,Dinner,Adult,Italian
+Paratha,Low,Mild,Breakfast,Senior,Indian
+Frittata,High,Spicy,Breakfast,Adult,Italian
+Pasta,Medium,Mild,Lunch,Adult,Italian
+Dim Sum,High,Medium,Breakfast,Senior,Chinese
+Enchilada,Medium,Medium,Dinner,Child,Mexican
+Burrito,High,Medium,Lunch,Adult,Mexican
+Burger,High,Medium,Lunch,Senior,American
+Dim Sum,Low,Spicy,Breakfast,Child,Chinese
+Pizza,High,Medium,Lunch,Adult,Italian
+Fries,Medium,Medium,Lunch,Child,American
+Sweet & Sour,High,Spicy,Dinner,Child,Chinese
+Dim Sum,High,Medium,Breakfast,Senior,Chinese
+Burrito,High,Spicy,Lunch,Senior,Mexican
+Salad,Low,Mild,Dinner,Adult,American
+Paneer,Low,Mild,Dinner,Child,Indian
+Frittata,Medium,Medium,Breakfast,Senior,Italian
+Sweet & Sour,Medium,Mild,Dinner,Senior,Chinese
+Tacos,High,Mild,Breakfast,Child,Mexican
+Burrito,Medium,Mild,Lunch,Child,Mexican
+Burrito,High,Spicy,Lunch,Senior,Mexican
+Tandoori,High,Spicy,Dinner,Adult,Indian
+Enchilada,High,Spicy,Dinner,Senior,Mexican
+Quesadilla,Low,Medium,Lunch,Adult,Mexican
+Paneer,Medium,Mild,Dinner,Adult,Indian
+Dumplings,Low,Spicy,Dinner,Adult,Chinese
+Tacos,Low,Mild,Breakfast,Child,Mexican
+Curry,Low,Medium,Lunch,Senior,Indian
+Pancakes,Low,Medium,Breakfast,Senior,American
+Burrito,Low,Spicy,Lunch,Adult,Mexican
+Lasagna,Medium,Mild,Dinner,Child,Italian
+Chili,Low,Spicy,Dinner,Senior,Mexican
+Tandoori,High,Medium,Dinner,Adult,Indian
+Pancakes,High,Medium,Breakfast,Senior,American
+Paneer,High,Spicy,Dinner,Senior,Indian
+Burrito,Medium,Spicy,Lunch,Child,Mexican
+Idli,Medium,Mild,Breakfast,Adult,Indian
+Curry,High,Mild,Lunch,Child,Indian
+Dim Sum,Medium,Medium,Breakfast,Senior,Chinese
+Dim Sum,Low,Spicy,Breakfast,Child,Chinese
+Dumplings,Low,Spicy,Dinner,Senior,Chinese
+Pizza,Low,Mild,Lunch,Senior,Italian
+Tacos,High,Spicy,Breakfast,Child,Mexican
+Noodles,Medium,Mild,Lunch,Child,Chinese
+Chili,Medium,Mild,Dinner,Senior,Mexican
+Pancakes,High,Spicy,Breakfast,Adult,American
+Sweet & Sour,Low,Spicy,Dinner,Child,Chinese
+Chili,Low,Mild,Dinner,Adult,Mexican
+Tacos,High,Spicy,Breakfast,Adult,Mexican
+Paratha,Low,Medium,Breakfast,Senior,Indian
+Tacos,Medium,Spicy,Breakfast,Adult,Mexican
+Tacos,High,Medium,Breakfast,Senior,Mexican
+Frittata,Low,Mild,Breakfast,Child,Italian
+Tandoori,Medium,Mild,Dinner,Adult,Indian
+Frittata,Low,Medium,Breakfast,Senior,Italian
+Tandoori,Medium,Spicy,Dinner,Senior,Indian
+Burrito,Low,Spicy,Lunch,Senior,Mexican
+Curry,Low,Medium,Lunch,Senior,Indian
+Enchilada,High,Medium,Dinner,Child,Mexican
+Tacos,Low,Medium,Breakfast,Adult,Mexican
+Fries,Medium,Spicy,Lunch,Adult,American
+Sweet & Sour,Low,Medium,Dinner,Senior,Chinese
+Frittata,High,Mild,Breakfast,Adult,Italian
+Risotto,Medium,Mild,Dinner,Adult,Italian
+Risotto,High,Spicy,Dinner,Child,Italian
+Tacos,Low,Spicy,Breakfast,Adult,Mexican
+Quesadilla,High,Medium,Lunch,Adult,Mexican
+Pasta,High,Medium,Lunch,Senior,Italian
+Fried Rice,Medium,Medium,Lunch,Adult,Chinese
+Enchilada,Medium,Spicy,Dinner,Senior,Mexican
+Tacos,Medium,Spicy,Breakfast,Child,Mexican
+Noodles,High,Spicy,Lunch,Adult,Chinese
+Dim Sum,Low,Spicy,Breakfast,Child,Chinese
+Sweet & Sour,Low,Mild,Dinner,Adult,Chinese
+Frittata,High,Mild,Breakfast,Child,Italian
+Paratha,Medium,Medium,Breakfast,Senior,Indian
+Biryani,Medium,Medium,Lunch,Senior,Indian
+Fries,High,Medium,Lunch,Senior,American
+Burrito,High,Mild,Lunch,Adult,Mexican
+Pancakes,Low,Spicy,Breakfast,Child,American
+Steak,Low,Medium,Dinner,Child,American
+Paratha,Medium,Medium,Breakfast,Senior,Indian
+Idli,Medium,Mild,Breakfast,Adult,Indian
+Curry,High,Spicy,Lunch,Adult,Indian
+Tacos,High,Medium,Breakfast,Senior,Mexican
+Pancakes,Medium,Spicy,Breakfast,Child,American
+Enchilada,Low,Medium,Dinner,Adult,Mexican
+Fries,Medium,Spicy,Lunch,Child,American
+Dim Sum,Medium,Medium,Breakfast,Child,Chinese
+Burger,High,Medium,Lunch,Senior,American
+Pancakes,Low,Medium,Breakfast,Senior,American
+Enchilada,High,Mild,Dinner,Child,Mexican
+Tacos,Medium,Medium,Breakfast,Senior,Mexican
+Enchilada,Medium,Mild,Dinner,Senior,Mexican
+Frittata,Low,Mild,Breakfast,Senior,Italian
+Noodles,Low,Mild,Lunch,Adult,Chinese
+Noodles,Medium,Medium,Lunch,Child,Chinese
+Frittata,Medium,Mild,Breakfast,Senior,Italian
+Chili,Medium,Medium,Dinner,Child,Mexican
+Burger,Low,Spicy,Lunch,Child,American
+Frittata,Medium,Spicy,Breakfast,Child,Italian
+Curry,High,Medium,Lunch,Senior,Indian
+Burger,Low,Spicy,Lunch,Senior,American
+Dumplings,Medium,Mild,Dinner,Child,Chinese
+Burger,Medium,Mild,Lunch,Child,American
+Enchilada,Medium,Spicy,Dinner,Child,Mexican
+Burger,High,Mild,Lunch,Senior,American
+Burger,Low,Mild,Lunch,Senior,American
+Enchilada,High,Medium,Dinner,Child,Mexican
+Paneer,High,Medium,Dinner,Adult,Indian
+Burrito,High,Medium,Lunch,Senior,Mexican
+Enchilada,Low,Medium,Dinner,Child,Mexican
+Paratha,Medium,Mild,Breakfast,Senior,Indian
+Lasagna,High,Mild,Dinner,Senior,Italian
+Burger,Low,Spicy,Lunch,Senior,American
+Pasta,Medium,Medium,Lunch,Adult,Italian
+Sweet & Sour,Medium,Spicy,Dinner,Adult,Chinese
+Tandoori,Low,Medium,Dinner,Child,Indian
+Sweet & Sour,Medium,Mild,Dinner,Senior,Chinese
+Dim Sum,Medium,Spicy,Breakfast,Adult,Chinese
+Noodles,High,Spicy,Lunch,Senior,Chinese
+Pizza,Low,Spicy,Lunch,Senior,Italian
+Noodles,High,Medium,Lunch,Adult,Chinese
+Fried Rice,Low,Spicy,Lunch,Adult,Chinese
+Enchilada,Medium,Spicy,Dinner,Adult,Mexican
+Steak,Low,Spicy,Dinner,Senior,American
+Dim Sum,Medium,Mild,Breakfast,Senior,Chinese
+Fries,Medium,Medium,Lunch,Child,American
+Risotto,High,Spicy,Dinner,Adult,Italian
+Dim Sum,High,Spicy,Breakfast,Adult,Chinese
+Pancakes,High,Mild,Breakfast,Child,American
+Curry,Medium,Spicy,Lunch,Senior,Indian
+Enchilada,Medium,Medium,Dinner,Child,Mexican
+Dim Sum,Low,Medium,Breakfast,Adult,Chinese
+Dim Sum,High,Mild,Breakfast,Senior,Chinese
+Chili,Medium,Spicy,Dinner,Child,Mexican
+Quesadilla,High,Mild,Lunch,Child,Mexican
+Idli,Medium,Medium,Breakfast,Child,Indian
+Burger,Medium,Spicy,Lunch,Child,American
+Pancakes,Low,Spicy,Breakfast,Child,American
+Noodles,High,Medium,Lunch,Senior,Chinese
+Sweet & Sour,High,Spicy,Dinner,Child,Chinese
+Tandoori,Medium,Mild,Dinner,Child,Indian
+Pizza,Medium,Spicy,Lunch,Senior,Italian
+Dim Sum,Medium,Spicy,Breakfast,Senior,Chinese
+Dim Sum,Medium,Spicy,Breakfast,Senior,Chinese
+Salad,Low,Mild,Dinner,Senior,American
+Fries,Medium,Medium,Lunch,Senior,American
+Pizza,Low,Mild,Lunch,Child,Italian
+Sweet & Sour,Low,Spicy,Dinner,Senior,Chinese
+Pasta,High,Medium,Lunch,Adult,Italian
+Pancakes,Low,Mild,Breakfast,Child,American
+Lasagna,High,Medium,Dinner,Adult,Italian
+Dumplings,High,Mild,Dinner,Senior,Chinese
+Quesadilla,High,Mild,Lunch,Child,Mexican
+Idli,High,Mild,Breakfast,Child,Indian
+Dumplings,Medium,Medium,Dinner,Adult,Chinese
+Paratha,Medium,Medium,Breakfast,Child,Indian
+Risotto,High,Medium,Dinner,Adult,Italian
+Pasta,High,Spicy,Lunch,Child,Italian
+Frittata,High,Mild,Breakfast,Adult,Italian
+Fried Rice,Medium,Mild,Lunch,Senior,Chinese
+Dim Sum,Low,Mild,Breakfast,Senior,Chinese
+Salad,High,Mild,Dinner,Senior,American
+Idli,Medium,Medium,Breakfast,Senior,Indian
+Tacos,High,Medium,Breakfast,Child,Mexican
+Frittata,Low,Medium,Breakfast,Senior,Italian
+Frittata,Low,Mild,Breakfast,Child,Italian
+Paneer,Medium,Medium,Dinner,Child,Indian
+Sweet & Sour,Low,Medium,Dinner,Adult,Chinese
+Dumplings,Medium,Spicy,Dinner,Adult,Chinese
+Frittata,Low,Spicy,Breakfast,Child,Italian
+Fries,Medium,Spicy,Lunch,Adult,American
+Salad,Low,Mild,Dinner,Senior,American
+Tacos,Low,Medium,Breakfast,Child,Mexican
+Pasta,Medium,Spicy,Lunch,Child,Italian
+Tacos,High,Medium,Breakfast,Adult,Mexican
+Salad,High,Mild,Dinner,Child,American
+Steak,High,Mild,Dinner,Child,American
+Frittata,Medium,Mild,Breakfast,Adult,Italian
+Fries,Low,Mild,Lunch,Senior,American
+Lasagna,Medium,Mild,Dinner,Senior,Italian
+Steak,High,Mild,Dinner,Senior,American
+Dim Sum,Low,Spicy,Breakfast,Adult,Chinese
+Frittata,High,Spicy,Breakfast,Adult,Italian
+Tandoori,Low,Mild,Dinner,Adult,Indian
+Pancakes,High,Spicy,Breakfast,Child,American
+Pizza,High,Mild,Lunch,Adult,Italian
+Tacos,Medium,Mild,Breakfast,Adult,Mexican
+Idli,Medium,Spicy,Breakfast,Adult,Indian
+Curry,High,Medium,Lunch,Senior,Indian
+Salad,Medium,Spicy,Dinner,Adult,American
+Noodles,Low,Mild,Lunch,Child,Chinese
+Burrito,Low,Spicy,Lunch,Adult,Mexican
+Pancakes,High,Medium,Breakfast,Child,American
+Noodles,High,Spicy,Lunch,Adult,Chinese
+Salad,Low,Medium,Dinner,Child,American
+Burrito,High,Medium,Lunch,Child,Mexican
+Burrito,Low,Spicy,Lunch,Adult,Mexican
+Tacos,Low,Spicy,Breakfast,Senior,Mexican
+Pancakes,Low,Medium,Breakfast,Senior,American
+Paneer,Low,Medium,Dinner,Child,Indian
+Tacos,Medium,Mild,Breakfast,Senior,Mexican
+Lasagna,Medium,Spicy,Dinner,Adult,Italian
+Frittata,Low,Medium,Breakfast,Child,Italian
+Burrito,Low,Spicy,Lunch,Child,Mexican
+Fries,Low,Mild,Lunch,Senior,American
+Risotto,Medium,Mild,Dinner,Child,Italian
+Pasta,Medium,Medium,Lunch,Child,Italian
+Tacos,High,Spicy,Breakfast,Adult,Mexican
+Quesadilla,High,Spicy,Lunch,Senior,Mexican
+Curry,Low,Mild,Lunch,Senior,Indian
+Burrito,High,Spicy,Lunch,Senior,Mexican
+Steak,High,Mild,Dinner,Child,American
+Tacos,High,Spicy,Breakfast,Adult,Mexican
+Noodles,High,Spicy,Lunch,Adult,Chinese
+Dim Sum,Medium,Spicy,Breakfast,Senior,Chinese
+Pasta,Medium,Mild,Lunch,Senior,Italian
+Tandoori,Low,Medium,Dinner,Adult,Indian
+Fried Rice,Medium,Medium,Lunch,Adult,Chinese
+Pizza,Low,Spicy,Lunch,Senior,Italian
+Paneer,High,Medium,Dinner,Adult,Indian
+Tacos,Low,Medium,Breakfast,Child,Mexican
+Idli,Medium,Medium,Breakfast,Senior,Indian
+Sweet & Sour,Low,Spicy,Dinner,Child,Chinese
+Paneer,Low,Spicy,Dinner,Senior,Indian
+Curry,High,Mild,Lunch,Senior,Indian
+Noodles,Low,Mild,Lunch,Adult,Chinese
+Lasagna,Medium,Spicy,Dinner,Senior,Italian
+Salad,Medium,Spicy,Dinner,Adult,American
+Tacos,Medium,Mild,Breakfast,Child,Mexican
+Pancakes,Low,Spicy,Breakfast,Senior,American
+Fries,Low,Mild,Lunch,Adult,American
+Tandoori,High,Mild,Dinner,Adult,Indian
+Dim Sum,Low,Medium,Breakfast,Child,Chinese
+Dumplings,Medium,Medium,Dinner,Adult,Chinese
+Frittata,Low,Medium,Breakfast,Senior,Italian
+Pasta,Medium,Spicy,Lunch,Adult,Italian
+Frittata,Medium,Mild,Breakfast,Child,Italian
+Sweet & Sour,High,Medium,Dinner,Senior,Chinese
+Pancakes,Medium,Spicy,Breakfast,Adult,American
+Fried Rice,High,Medium,Lunch,Senior,Chinese
+Tacos,Low,Mild,Breakfast,Adult,Mexican
+Biryani,Low,Medium,Lunch,Adult,Indian
+Idli,Medium,Medium,Breakfast,Adult,Indian
+Enchilada,Low,Spicy,Dinner,Adult,Mexican
+Frittata,Low,Spicy,Breakfast,Adult,Italian
+Paneer,Medium,Mild,Dinner,Senior,Indian
+Frittata,Medium,Mild,Breakfast,Senior,Italian
+Dim Sum,Medium,Spicy,Breakfast,Child,Chinese
+Frittata,Medium,Medium,Breakfast,Child,Italian
+Chili,High,Mild,Dinner,Child,Mexican
+Risotto,Low,Spicy,Dinner,Child,Italian
+Chili,Low,Spicy,Dinner,Adult,Mexican
+Tacos,Medium,Mild,Breakfast,Senior,Mexican
+Lasagna,High,Mild,Dinner,Senior,Italian
+Frittata,Low,Spicy,Breakfast,Adult,Italian
+Burger,Low,Mild,Lunch,Adult,American
+Chili,Medium,Spicy,Dinner,Adult,Mexican
+Salad,Medium,Spicy,Dinner,Child,American
+Pancakes,Low,Medium,Breakfast,Senior,American
+Pancakes,High,Spicy,Breakfast,Adult,American
+Lasagna,Medium,Medium,Dinner,Adult,Italian
+Enchilada,Medium,Spicy,Dinner,Adult,Mexican
+Pancakes,Low,Spicy,Breakfast,Adult,American
+Pancakes,Low,Mild,Breakfast,Child,American
+Lasagna,Low,Mild,Dinner,Senior,Italian
+Paratha,Medium,Medium,Breakfast,Adult,Indian
+Risotto,Low,Mild,Dinner,Senior,Italian
+Fries,High,Mild,Lunch,Child,American
+Tacos,Medium,Spicy,Breakfast,Adult,Mexican
+Paneer,High,Spicy,Dinner,Senior,Indian
+Steak,High,Mild,Dinner,Senior,American
+Fried Rice,Low,Spicy,Lunch,Senior,Chinese
+Tandoori,High,Spicy,Dinner,Adult,Indian
+Dim Sum,Medium,Spicy,Breakfast,Child,Chinese
+Pancakes,Medium,Spicy,Breakfast,Senior,American
+Pizza,High,Medium,Lunch,Senior,Italian
+Tacos,Low,Medium,Breakfast,Child,Mexican
+Burrito,Medium,Spicy,Lunch,Child,Mexican
+Idli,High,Medium,Breakfast,Child,Indian
+Noodles,Medium,Mild,Lunch,Senior,Chinese
+Pancakes,Low,Medium,Breakfast,Adult,American
+Noodles,Low,Mild,Lunch,Senior,Chinese
+Paneer,Medium,Spicy,Dinner,Child,Indian
+Pancakes,High,Spicy,Breakfast,Senior,American
+Fries,Low,Mild,Lunch,Child,American
+Quesadilla,Medium,Medium,Lunch,Senior,Mexican
+Steak,High,Spicy,Dinner,Child,American
+Sweet & Sour,Medium,Medium,Dinner,Child,Chinese
+Dim Sum,High,Spicy,Breakfast,Senior,Chinese
+Fried Rice,Medium,Medium,Lunch,Child,Chinese
+Fries,Medium,Mild,Lunch,Adult,American
+Paneer,Medium,Mild,Dinner,Adult,Indian
+Chili,High,Spicy,Dinner,Adult,Mexican
+Sweet & Sour,Medium,Mild,Dinner,Child,Chinese
+Pasta,High,Medium,Lunch,Adult,Italian
+Tacos,Medium,Mild,Breakfast,Adult,Mexican
+Paratha,Low,Medium,Breakfast,Senior,Indian
+Sweet & Sour,Medium,Medium,Dinner,Child,Chinese
+Sweet & Sour,Medium,Medium,Dinner,Adult,Chinese
+Burger,High,Medium,Lunch,Senior,American
+Idli,Low,Medium,Breakfast,Child,Indian
+Sweet & Sour,Medium,Mild,Dinner,Child,Chinese
+Frittata,Medium,Spicy,Breakfast,Child,Italian
+Tandoori,High,Spicy,Dinner,Child,Indian
+Pizza,Medium,Mild,Lunch,Senior,Italian
+Dumplings,Medium,Medium,Dinner,Senior,Chinese
+Fried Rice,Low,Mild,Lunch,Adult,Chinese
+Frittata,Medium,Mild,Breakfast,Child,Italian
+Pancakes,High,Medium,Breakfast,Senior,American
+Biryani,High,Spicy,Lunch,Senior,Indian
+Curry,High,Medium,Lunch,Child,Indian
+Pizza,Medium,Mild,Lunch,Adult,Italian
+Curry,Low,Mild,Lunch,Senior,Indian
+Sweet & Sour,Low,Mild,Dinner,Adult,Chinese
+Fries,High,Medium,Lunch,Child,American
+Salad,High,Spicy,Dinner,Adult,American
+Tandoori,Medium,Medium,Dinner,Senior,Indian
+Steak,Low,Mild,Dinner,Child,American
+Biryani,Medium,Spicy,Lunch,Senior,Indian
+Dim Sum,Medium,Mild,Breakfast,Child,Chinese
+Fried Rice,Medium,Mild,Lunch,Senior,Chinese
+Risotto,Medium,Mild,Dinner,Adult,Italian
+Burger,Low,Mild,Lunch,Child,American
+Paratha,Medium,Mild,Breakfast,Child,Indian
+Pancakes,Low,Medium,Breakfast,Adult,American
+Pancakes,Medium,Spicy,Breakfast,Senior,American
+Salad,Medium,Mild,Dinner,Adult,American
+Frittata,Low,Mild,Breakfast,Adult,Italian
+Fries,High,Mild,Lunch,Adult,American
+Pancakes,Medium,Mild,Breakfast,Adult,American
+Sweet & Sour,Medium,Mild,Dinner,Senior,Chinese
+Risotto,High,Spicy,Dinner,Senior,Italian
+Quesadilla,High,Mild,Lunch,Child,Mexican
+Paneer,High,Mild,Dinner,Adult,Indian
+Tandoori,High,Mild,Dinner,Child,Indian
+Salad,Medium,Spicy,Dinner,Child,American
+Chili,High,Mild,Dinner,Senior,Mexican
+Salad,Medium,Mild,Dinner,Child,American
+Burrito,Medium,Medium,Lunch,Senior,Mexican
+Chili,Low,Medium,Dinner,Adult,Mexican
+Burrito,High,Mild,Lunch,Senior,Mexican
+Pasta,High,Spicy,Lunch,Child,Italian
+Salad,High,Medium,Dinner,Adult,American
+Dim Sum,Medium,Spicy,Breakfast,Child,Chinese
+Tacos,Low,Spicy,Breakfast,Child,Mexican
+Paratha,High,Mild,Breakfast,Child,Indian
+Frittata,Low,Mild,Breakfast,Senior,Italian
+Pancakes,Low,Spicy,Breakfast,Child,American
+Idli,Low,Medium,Breakfast,Senior,Indian
+Fried Rice,Medium,Mild,Lunch,Senior,Chinese
+Dim Sum,Medium,Medium,Breakfast,Adult,Chinese
+Chili,Low,Spicy,Dinner,Adult,Mexican
+Pancakes,High,Medium,Breakfast,Senior,American
+Burrito,High,Medium,Lunch,Senior,Mexican
+Salad,Medium,Spicy,Dinner,Adult,American
+Burrito,Medium,Mild,Lunch,Senior,Mexican
+Curry,Low,Spicy,Lunch,Child,Indian
+Burger,Low,Spicy,Lunch,Adult,American
+Tacos,Medium,Mild,Breakfast,Senior,Mexican
+Tandoori,Low,Medium,Dinner,Child,Indian
+Pancakes,High,Mild,Breakfast,Senior,American
+Paratha,High,Mild,Breakfast,Senior,Indian
+Tacos,Low,Mild,Breakfast,Child,Mexican
+Fried Rice,Low,Spicy,Lunch,Child,Chinese
+Risotto,Low,Spicy,Dinner,Senior,Italian
+Idli,Medium,Medium,Breakfast,Senior,Indian
+Curry,Low,Spicy,Lunch,Child,Indian
+Frittata,Medium,Spicy,Breakfast,Adult,Italian
+Fries,Medium,Mild,Lunch,Child,American
+Pizza,Medium,Spicy,Lunch,Senior,Italian
+Tandoori,High,Spicy,Dinner,Child,Indian
+Quesadilla,Low,Spicy,Lunch,Adult,Mexican
+Noodles,Medium,Spicy,Lunch,Senior,Chinese
+Frittata,Medium,Medium,Breakfast,Senior,Italian
+Pancakes,High,Spicy,Breakfast,Child,American
+Steak,High,Spicy,Dinner,Senior,American
+Burger,High,Mild,Lunch,Adult,American
+Dim Sum,Medium,Mild,Breakfast,Child,Chinese
+Steak,Medium,Medium,Dinner,Adult,American
+Risotto,Medium,Spicy,Dinner,Senior,Italian
+Pancakes,Low,Spicy,Breakfast,Senior,American
+Pasta,Medium,Mild,Lunch,Child,Italian
+Tacos,High,Mild,Breakfast,Child,Mexican
+Pancakes,Low,Spicy,Breakfast,Senior,American
+Tandoori,High,Mild,Dinner,Child,Indian
+Frittata,High,Mild,Breakfast,Senior,Italian
+Biryani,Medium,Mild,Lunch,Adult,Indian
+Chili,Medium,Spicy,Dinner,Adult,Mexican
+Biryani,Low,Medium,Lunch,Child,Indian
+Tandoori,Medium,Medium,Dinner,Child,Indian
+Noodles,High,Mild,Lunch,Child,Chinese
+Chili,Medium,Spicy,Dinner,Senior,Mexican
+Lasagna,Low,Mild,Dinner,Senior,Italian
+Frittata,Low,Medium,Breakfast,Adult,Italian
+Steak,Low,Medium,Dinner,Child,American
+Fries,Low,Spicy,Lunch,Child,American
+Curry,Low,Mild,Lunch,Adult,Indian
+Curry,Medium,Mild,Lunch,Adult,Indian
+Risotto,Medium,Mild,Dinner,Adult,Italian
+Burrito,Medium,Medium,Lunch,Senior,Mexican
+Idli,Low,Mild,Breakfast,Senior,Indian
+Idli,Low,Medium,Breakfast,Senior,Indian
+Pancakes,High,Mild,Breakfast,Child,American
+Dumplings,Medium,Mild,Dinner,Child,Chinese
+Tacos,Low,Mild,Breakfast,Adult,Mexican
+Curry,Medium,Mild,Lunch,Child,Indian
+Lasagna,Medium,Mild,Dinner,Adult,Italian
+Idli,Low,Medium,Breakfast,Adult,Indian
+Biryani,Medium,Mild,Lunch,Child,Indian
+Risotto,High,Mild,Dinner,Senior,Italian
+Pizza,High,Medium,Lunch,Adult,Italian
+Dim Sum,High,Medium,Breakfast,Child,Chinese
+Paneer,High,Medium,Dinner,Adult,Indian
+Enchilada,High,Spicy,Dinner,Child,Mexican
+Dumplings,Low,Spicy,Dinner,Adult,Chinese
+Enchilada,High,Mild,Dinner,Senior,Mexican
+Pizza,Low,Spicy,Lunch,Senior,Italian
+Idli,High,Spicy,Breakfast,Child,Indian
+Biryani,High,Spicy,Lunch,Adult,Indian
+Tandoori,High,Spicy,Dinner,Senior,Indian
+Burrito,Low,Medium,Lunch,Senior,Mexican
+Curry,High,Medium,Lunch,Senior,Indian
+Pancakes,High,Mild,Breakfast,Child,American
+Burrito,High,Medium,Lunch,Adult,Mexican
+Dim Sum,High,Spicy,Breakfast,Child,Chinese
+Pancakes,High,Medium,Breakfast,Adult,American
+Dim Sum,Medium,Medium,Breakfast,Senior,Chinese
+Sweet & Sour,Medium,Mild,Dinner,Senior,Chinese
+Lasagna,Medium,Mild,Dinner,Child,Italian
+Idli,Medium,Spicy,Breakfast,Child,Indian
+Paratha,Low,Mild,Breakfast,Senior,Indian
+Fries,Low,Spicy,Lunch,Adult,American
+Burrito,Medium,Medium,Lunch,Child,Mexican
+Dumplings,Medium,Medium,Dinner,Adult,Chinese
+Tacos,Low,Mild,Breakfast,Adult,Mexican
+Tacos,Low,Spicy,Breakfast,Senior,Mexican
+Steak,Medium,Medium,Dinner,Adult,American
+Idli,High,Mild,Breakfast,Child,Indian
+Dim Sum,High,Medium,Breakfast,Adult,Chinese
+Paneer,Low,Medium,Dinner,Child,Indian
+Enchilada,High,Mild,Dinner,Child,Mexican
+Paneer,Medium,Spicy,Dinner,Child,Indian
+Dim Sum,Medium,Medium,Breakfast,Child,Chinese
+Idli,Medium,Spicy,Breakfast,Senior,Indian
+Noodles,Medium,Medium,Lunch,Adult,Chinese
+Lasagna,Low,Spicy,Dinner,Adult,Italian
+Dim Sum,Low,Spicy,Breakfast,Child,Chinese
+Noodles,Medium,Medium,Lunch,Adult,Chinese
+Tandoori,Medium,Spicy,Dinner,Senior,Indian
+Tandoori,Medium,Mild,Dinner,Adult,Indian
+Quesadilla,Medium,Mild,Lunch,Adult,Mexican
+Dim Sum,Medium,Mild,Breakfast,Adult,Chinese
+Idli,High,Medium,Breakfast,Senior,Indian
+Paratha,Low,Mild,Breakfast,Child,Indian
+Fried Rice,High,Medium,Lunch,Senior,Chinese
+Pancakes,Medium,Medium,Breakfast,Child,American
+Paneer,Low,Medium,Dinner,Adult,Indian
+Sweet & Sour,Low,Mild,Dinner,Senior,Chinese
+Pancakes,Low,Mild,Breakfast,Senior,American
+Dumplings,Low,Spicy,Dinner,Senior,Chinese
+Enchilada,High,Mild,Dinner,Adult,Mexican
+Chili,Medium,Medium,Dinner,Child,Mexican
+Frittata,Medium,Spicy,Breakfast,Adult,Italian
+Noodles,Low,Medium,Lunch,Child,Chinese
+Tacos,Medium,Medium,Breakfast,Adult,Mexican
+Tacos,Low,Mild,Breakfast,Child,Mexican
+Fries,Medium,Medium,Lunch,Adult,American
+Dim Sum,High,Spicy,Breakfast,Adult,Chinese
+Fries,Low,Medium,Lunch,Adult,American
+Frittata,High,Mild,Breakfast,Child,Italian
+Curry,High,Medium,Lunch,Adult,Indian
+Pasta,Low,Medium,Lunch,Senior,Italian
+Frittata,Medium,Mild,Breakfast,Senior,Italian
+Risotto,High,Medium,Dinner,Child,Italian
+Frittata,Medium,Mild,Breakfast,Child,Italian
+Pancakes,Medium,Medium,Breakfast,Adult,American
+Idli,High,Spicy,Breakfast,Senior,Indian
+Pasta,Medium,Mild,Lunch,Child,Italian
+Risotto,High,Medium,Dinner,Child,Italian
+Paneer,Medium,Mild,Dinner,Adult,Indian
+Noodles,Low,Mild,Lunch,Child,Chinese
+Fried Rice,Low,Medium,Lunch,Senior,Chinese
+Paneer,High,Mild,Dinner,Adult,Indian
+Dim Sum,Low,Medium,Breakfast,Child,Chinese
+Quesadilla,High,Spicy,Lunch,Adult,Mexican
+Noodles,Medium,Medium,Lunch,Adult,Chinese
+Pizza,Medium,Medium,Lunch,Senior,Italian
+Chili,High,Mild,Dinner,Child,Mexican
+Paneer,Low,Mild,Dinner,Child,Indian
+Salad,High,Spicy,Dinner,Senior,American
+Pasta,High,Mild,Lunch,Senior,Italian
+Tacos,Medium,Spicy,Breakfast,Adult,Mexican
+Frittata,Low,Mild,Breakfast,Adult,Italian
+Frittata,High,Mild,Breakfast,Adult,Italian
+Curry,Low,Mild,Lunch,Senior,Indian
+Frittata,Low,Medium,Breakfast,Child,Italian
+Paratha,Low,Mild,Breakfast,Child,Indian
+Biryani,Medium,Medium,Lunch,Child,Indian
+Chili,High,Medium,Dinner,Child,Mexican
+Steak,Low,Medium,Dinner,Child,American
+Salad,Medium,Mild,Dinner,Child,American
+Pancakes,Low,Mild,Breakfast,Senior,American
+Tacos,High,Mild,Breakfast,Adult,Mexican
+Salad,High,Medium,Dinner,Senior,American
+Risotto,Low,Medium,Dinner,Child,Italian
+Lasagna,Medium,Spicy,Dinner,Senior,Italian
+Quesadilla,Low,Mild,Lunch,Senior,Mexican
+Tacos,Low,Medium,Breakfast,Senior,Mexican
+Dim Sum,High,Medium,Breakfast,Child,Chinese
+Risotto,High,Medium,Dinner,Adult,Italian
+Pancakes,Low,Mild,Breakfast,Adult,American
+Dim Sum,Low,Mild,Breakfast,Child,Chinese
+Fried Rice,Low,Medium,Lunch,Adult,Chinese
+Sweet & Sour,High,Spicy,Dinner,Senior,Chinese
+Risotto,Low,Mild,Dinner,Adult,Italian
+Steak,Medium,Medium,Dinner,Child,American
+Quesadilla,Low,Medium,Lunch,Adult,Mexican
+Idli,Medium,Medium,Breakfast,Senior,Indian
+Lasagna,Medium,Mild,Dinner,Child,Italian
+Risotto,Low,Mild,Dinner,Senior,Italian
+Fries,Medium,Medium,Lunch,Adult,American
+Dim Sum,High,Mild,Breakfast,Senior,Chinese
+Tacos,Medium,Medium,Breakfast,Child,Mexican
+Risotto,Low,Medium,Dinner,Adult,Italian
+Sweet & Sour,High,Mild,Dinner,Adult,Chinese
+Frittata,High,Spicy,Breakfast,Child,Italian
+Dim Sum,Low,Mild,Breakfast,Senior,Chinese
+Paneer,High,Mild,Dinner,Senior,Indian
+Noodles,High,Medium,Lunch,Senior,Chinese
+Frittata,Medium,Medium,Breakfast,Adult,Italian
+Frittata,High,Medium,Breakfast,Child,Italian
+Pancakes,Low,Spicy,Breakfast,Adult,American
+Fries,High,Medium,Lunch,Adult,American
+Dim Sum,High,Mild,Breakfast,Adult,Chinese
+Sweet & Sour,Medium,Medium,Dinner,Child,Chinese
+Dim Sum,Low,Medium,Breakfast,Senior,Chinese
+Tacos,Medium,Mild,Breakfast,Adult,Mexican
+Pizza,Low,Medium,Lunch,Adult,Italian
+Paratha,Medium,Spicy,Breakfast,Child,Indian
+Sweet & Sour,High,Mild,Dinner,Child,Chinese
+Tacos,Medium,Medium,Breakfast,Senior,Mexican
+Fries,Medium,Spicy,Lunch,Adult,American
+Paratha,High,Spicy,Breakfast,Child,Indian
+Quesadilla,Low,Mild,Lunch,Adult,Mexican
+Burger,Low,Medium,Lunch,Child,American
+Curry,High,Medium,Lunch,Adult,Indian
+Pancakes,Medium,Spicy,Breakfast,Senior,American
+Lasagna,Medium,Mild,Dinner,Child,Italian
+Burger,Medium,Medium,Lunch,Child,American
+Pasta,High,Medium,Lunch,Adult,Italian
+Pancakes,Medium,Mild,Breakfast,Senior,American
+Curry,High,Medium,Lunch,Adult,Indian
+Tacos,Low,Mild,Breakfast,Adult,Mexican
+Biryani,Low,Mild,Lunch,Adult,Indian
+Tandoori,High,Mild,Dinner,Adult,Indian
+Salad,Medium,Medium,Dinner,Child,American
+Steak,High,Spicy,Dinner,Child,American
+Risotto,Medium,Medium,Dinner,Child,Italian
+Tacos,Medium,Spicy,Breakfast,Adult,Mexican
+Paneer,Medium,Mild,Dinner,Senior,Indian
+Curry,High,Spicy,Lunch,Child,Indian
+Pancakes,Low,Spicy,Breakfast,Adult,American
+Lasagna,High,Mild,Dinner,Child,Italian
+Burger,Low,Mild,Lunch,Senior,American
+Idli,Medium,Mild,Breakfast,Adult,Indian
+Pasta,Low,Mild,Lunch,Child,Italian
+Burger,Low,Mild,Lunch,Child,American
+Frittata,Low,Medium,Breakfast,Adult,Italian
+Enchilada,Medium,Spicy,Dinner,Senior,Mexican
+Frittata,Medium,Spicy,Breakfast,Child,Italian
+Paratha,Low,Mild,Breakfast,Adult,Indian
+Tacos,High,Mild,Breakfast,Senior,Mexican
+Dim Sum,Low,Spicy,Breakfast,Adult,Chinese
+Tacos,Low,Mild,Breakfast,Child,Mexican
+Tandoori,Medium,Medium,Dinner,Senior,Indian
+Frittata,Medium,Spicy,Breakfast,Child,Italian
+Fries,High,Mild,Lunch,Adult,American
+Salad,Medium,Spicy,Dinner,Adult,American
+Sweet & Sour,High,Medium,Dinner,Child,Chinese
+Pancakes,High,Medium,Breakfast,Child,American
+Dim Sum,High,Medium,Breakfast,Adult,Chinese
+Enchilada,Medium,Mild,Dinner,Child,Mexican
+Pasta,Low,Mild,Lunch,Senior,Italian
+Tacos,High,Spicy,Breakfast,Adult,Mexican
+Quesadilla,Medium,Spicy,Lunch,Child,Mexican
+Pancakes,Medium,Medium,Breakfast,Senior,American
+Pizza,Medium,Spicy,Lunch,Adult,Italian
+Steak,Medium,Mild,Dinner,Adult,American
+Curry,Medium,Mild,Lunch,Senior,Indian
+Lasagna,High,Medium,Dinner,Child,Italian
+Tacos,Low,Medium,Breakfast,Child,Mexican
+Burrito,Medium,Spicy,Lunch,Child,Mexican
+Risotto,Low,Medium,Dinner,Adult,Italian
+Chili,Medium,Medium,Dinner,Adult,Mexican
+Sweet & Sour,Medium,Medium,Dinner,Senior,Chinese
+Tacos,Low,Mild,Breakfast,Senior,Mexican
+Frittata,Low,Medium,Breakfast,Senior,Italian
+Paratha,High,Medium,Breakfast,Adult,Indian
+Dim Sum,High,Mild,Breakfast,Child,Chinese
+Idli,High,Mild,Breakfast,Senior,Indian
+Noodles,High,Mild,Lunch,Adult,Chinese
+Salad,High,Mild,Dinner,Senior,American
+Pizza,Low,Spicy,Lunch,Senior,Italian
+Noodles,Low,Spicy,Lunch,Child,Chinese
+Burrito,Low,Medium,Lunch,Adult,Mexican
+Risotto,High,Medium,Dinner,Senior,Italian
+Paratha,Low,Mild,Breakfast,Adult,Indian
+Paneer,Medium,Mild,Dinner,Senior,Indian
+Paratha,Medium,Mild,Breakfast,Child,Indian
+Curry,Low,Spicy,Lunch,Adult,Indian
+Pancakes,Low,Spicy,Breakfast,Senior,American
+Dim Sum,Low,Spicy,Breakfast,Child,Chinese
+Pancakes,Low,Spicy,Breakfast,Senior,American
+Enchilada,Medium,Spicy,Dinner,Adult,Mexican
+Burger,Medium,Spicy,Lunch,Child,American
+Frittata,Medium,Medium,Breakfast,Senior,Italian
+Noodles,High,Mild,Lunch,Child,Chinese
+Dim Sum,Medium,Mild,Breakfast,Senior,Chinese
+Salad,Low,Spicy,Dinner,Adult,American
+Tacos,High,Spicy,Breakfast,Adult,Mexican
+Sweet & Sour,Low,Medium,Dinner,Adult,Chinese
+Tacos,High,Spicy,Breakfast,Adult,Mexican
+Steak,Low,Spicy,Dinner,Adult,American
+Fries,Medium,Spicy,Lunch,Adult,American
+Pancakes,Low,Medium,Breakfast,Senior,American
+Tacos,Medium,Spicy,Breakfast,Senior,Mexican
+Dim Sum,High,Spicy,Breakfast,Child,Chinese
+Fried Rice,Medium,Spicy,Lunch,Adult,Chinese
+Idli,Medium,Spicy,Breakfast,Senior,Indian
+Fries,Low,Spicy,Lunch,Senior,American
+Tacos,High,Medium,Breakfast,Senior,Mexican
+Curry,Medium,Mild,Lunch,Child,Indian
+Tandoori,Low,Mild,Dinner,Senior,Indian
+Pasta,High,Medium,Lunch,Adult,Italian
+Salad,High,Mild,Dinner,Child,American
+Burger,Medium,Spicy,Lunch,Child,American
+Pasta,Low,Mild,Lunch,Adult,Italian
+Pancakes,High,Spicy,Breakfast,Adult,American
+Noodles,Medium,Spicy,Lunch,Adult,Chinese
+Fries,Medium,Mild,Lunch,Adult,American
+Paneer,Low,Spicy,Dinner,Child,Indian
+Quesadilla,Medium,Spicy,Lunch,Adult,Mexican
+Pancakes,High,Mild,Breakfast,Senior,American
+Pancakes,High,Mild,Breakfast,Child,American
+Dumplings,High,Spicy,Dinner,Adult,Chinese
+Frittata,Low,Medium,Breakfast,Senior,Italian
+Pasta,Low,Medium,Lunch,Child,Italian
+Tacos,Low,Medium,Breakfast,Adult,Mexican
+Paratha,Medium,Medium,Breakfast,Child,Indian
+Biryani,High,Medium,Lunch,Child,Indian
+Tacos,Low,Mild,Breakfast,Adult,Mexican
+Quesadilla,High,Medium,Lunch,Senior,Mexican
+Lasagna,Medium,Spicy,Dinner,Child,Italian
+Curry,Low,Mild,Lunch,Adult,Indian
+Pancakes,High,Mild,Breakfast,Adult,American
+Idli,Medium,Mild,Breakfast,Senior,Indian
+Idli,Medium,Spicy,Breakfast,Child,Indian
+Tandoori,Low,Medium,Dinner,Child,Indian
+Enchilada,Medium,Mild,Dinner,Senior,Mexican
+Enchilada,High,Medium,Dinner,Child,Mexican
+Pancakes,Low,Mild,Breakfast,Adult,American
+Dim Sum,Medium,Mild,Breakfast,Adult,Chinese
+Lasagna,Low,Mild,Dinner,Child,Italian
+Tacos,Low,Mild,Breakfast,Child,Mexican
+Steak,High,Medium,Dinner,Child,American
+Tandoori,High,Spicy,Dinner,Adult,Indian
+Biryani,Medium,Medium,Lunch,Senior,Indian
+Dim Sum,Low,Medium,Breakfast,Senior,Chinese
+Salad,Low,Medium,Dinner,Adult,American
+Paneer,Medium,Spicy,Dinner,Child,Indian
+Pancakes,High,Spicy,Breakfast,Child,American
+Dim Sum,Medium,Medium,Breakfast,Child,Chinese
+Noodles,Low,Medium,Lunch,Child,Chinese
+Dim Sum,Low,Mild,Breakfast,Senior,Chinese
+Burrito,High,Spicy,Lunch,Adult,Mexican
+Pancakes,Medium,Medium,Breakfast,Senior,American
+Noodles,High,Mild,Lunch,Senior,Chinese
+Fried Rice,High,Medium,Lunch,Adult,Chinese
+Fried Rice,Medium,Spicy,Lunch,Adult,Chinese
+Enchilada,Low,Mild,Dinner,Child,Mexican
+Pancakes,Low,Medium,Breakfast,Adult,American
+Pancakes,Medium,Spicy,Breakfast,Senior,American
+Burger,Low,Medium,Lunch,Child,American
+Dim Sum,Low,Mild,Breakfast,Senior,Chinese
+Tacos,Low,Mild,Breakfast,Child,Mexican
+Steak,Medium,Spicy,Dinner,Child,American
+Paneer,Medium,Spicy,Dinner,Senior,Indian
+Pancakes,High,Mild,Breakfast,Adult,American
+Frittata,High,Medium,Breakfast,Adult,Italian
+Dim Sum,High,Medium,Breakfast,Adult,Chinese
+Idli,Medium,Medium,Breakfast,Child,Indian
+Frittata,High,Mild,Breakfast,Child,Italian
+Salad,High,Mild,Dinner,Senior,American
+Enchilada,Medium,Mild,Dinner,Senior,Mexican
+Biryani,High,Spicy,Lunch,Adult,Indian
+Tacos,Low,Mild,Breakfast,Senior,Mexican
+Chili,Low,Spicy,Dinner,Child,Mexican
+Sweet & Sour,Medium,Medium,Dinner,Senior,Chinese
+Dim Sum,Low,Medium,Breakfast,Child,Chinese
+Tacos,High,Medium,Breakfast,Adult,Mexican
+Pasta,High,Mild,Lunch,Adult,Italian
+Fries,Low,Spicy,Lunch,Senior,American
+Salad,High,Mild,Dinner,Senior,American
+Burrito,Medium,Spicy,Lunch,Adult,Mexican
+Burrito,High,Medium,Lunch,Senior,Mexican
+Burrito,Medium,Spicy,Lunch,Adult,Mexican
+Curry,High,Spicy,Lunch,Senior,Indian
+Dumplings,High,Medium,Dinner,Child,Chinese
+Dim Sum,Medium,Medium,Breakfast,Senior,Chinese
+Tacos,Medium,Mild,Breakfast,Adult,Mexican
+Tandoori,High,Mild,Dinner,Adult,Indian
+Quesadilla,High,Spicy,Lunch,Senior,Mexican
+Burger,High,Medium,Lunch,Child,American
+Curry,Medium,Medium,Lunch,Child,Indian
+Pasta,Medium,Mild,Lunch,Adult,Italian
+Dim Sum,High,Spicy,Breakfast,Child,Chinese
+Noodles,High,Spicy,Lunch,Adult,Chinese
+Burrito,Low,Mild,Lunch,Child,Mexican
+Fried Rice,Low,Medium,Lunch,Adult,Chinese
+Frittata,Medium,Mild,Breakfast,Adult,Italian
+Pizza,Low,Spicy,Lunch,Senior,Italian
+Quesadilla,High,Medium,Lunch,Senior,Mexican
+Risotto,High,Spicy,Dinner,Senior,Italian
+Pancakes,Medium,Mild,Breakfast,Senior,American
+Steak,Medium,Medium,Dinner,Senior,American
+Noodles,Medium,Spicy,Lunch,Senior,Chinese
+Curry,Low,Mild,Lunch,Child,Indian
+Idli,Low,Mild,Breakfast,Adult,Indian
+Dim Sum,High,Mild,Breakfast,Senior,Chinese
+Lasagna,Low,Mild,Dinner,Child,Italian
+Burger,Low,Medium,Lunch,Adult,American
+Fries,High,Spicy,Lunch,Adult,American
+Quesadilla,Medium,Spicy,Lunch,Senior,Mexican
+Burrito,Low,Mild,Lunch,Senior,Mexican
+Chili,Medium,Medium,Dinner,Adult,Mexican
+Pasta,Low,Medium,Lunch,Child,Italian
+Tacos,High,Mild,Breakfast,Child,Mexican
+Paratha,High,Spicy,Breakfast,Child,Indian
+Dim Sum,High,Mild,Breakfast,Senior,Chinese
+Pancakes,Low,Medium,Breakfast,Child,American
+Dim Sum,High,Medium,Breakfast,Child,Chinese
+Paneer,Medium,Spicy,Dinner,Senior,Indian
+Paneer,Low,Spicy,Dinner,Senior,Indian
+Curry,Low,Mild,Lunch,Child,Indian
+Dim Sum,Medium,Medium,Breakfast,Adult,Chinese
+Steak,Low,Mild,Dinner,Senior,American
+Fries,High,Medium,Lunch,Adult,American
+Steak,Medium,Medium,Dinner,Adult,American
+Idli,High,Medium,Breakfast,Senior,Indian
+Burger,Medium,Medium,Lunch,Senior,American
+Paratha,Low,Mild,Breakfast,Child,Indian
+Burger,High,Mild,Lunch,Child,American
+Dim Sum,Medium,Medium,Breakfast,Adult,Chinese
+Fried Rice,High,Spicy,Lunch,Senior,Chinese
+Idli,Low,Medium,Breakfast,Adult,Indian
+Idli,Low,Medium,Breakfast,Senior,Indian
+Quesadilla,High,Spicy,Lunch,Adult,Mexican
+Salad,Low,Spicy,Dinner,Adult,American
+Pancakes,Low,Spicy,Breakfast,Adult,American
+Pizza,Low,Mild,Lunch,Senior,Italian
+Tacos,Low,Mild,Breakfast,Senior,Mexican
+Steak,Low,Mild,Dinner,Child,American
+Fried Rice,Low,Mild,Lunch,Senior,Chinese
+Lasagna,Medium,Medium,Dinner,Child,Italian
+Pizza,Low,Medium,Lunch,Adult,Italian
+Idli,Medium,Medium,Breakfast,Adult,Indian
+Noodles,Low,Medium,Lunch,Senior,Chinese
+Burrito,Medium,Mild,Lunch,Child,Mexican
+Enchilada,Low,Mild,Dinner,Child,Mexican
+Fried Rice,High,Mild,Lunch,Adult,Chinese
+Noodles,Medium,Medium,Lunch,Child,Chinese
+Dumplings,Low,Medium,Dinner,Child,Chinese
+Sweet & Sour,High,Mild,Dinner,Adult,Chinese
+Dim Sum,Medium,Medium,Breakfast,Senior,Chinese
+Quesadilla,High,Mild,Lunch,Senior,Mexican
+Quesadilla,High,Medium,Lunch,Adult,Mexican
+Steak,High,Spicy,Dinner,Senior,American
+Dim Sum,Low,Spicy,Breakfast,Senior,Chinese
+Steak,Low,Medium,Dinner,Adult,American
+Noodles,Medium,Medium,Lunch,Senior,Chinese
+Paratha,High,Medium,Breakfast,Senior,Indian
+Tacos,Low,Mild,Breakfast,Senior,Mexican
+Salad,Medium,Spicy,Dinner,Adult,American
+Pasta,Low,Spicy,Lunch,Adult,Italian
+Enchilada,Medium,Spicy,Dinner,Adult,Mexican
+Pancakes,High,Spicy,Breakfast,Child,American
+Quesadilla,Low,Medium,Lunch,Senior,Mexican
+Risotto,Low,Spicy,Dinner,Adult,Italian
+Paratha,High,Spicy,Breakfast,Senior,Indian
+Salad,Low,Spicy,Dinner,Senior,American
+Fried Rice,Medium,Spicy,Lunch,Senior,Chinese
+Salad,Low,Spicy,Dinner,Child,American
+Risotto,High,Mild,Dinner,Adult,Italian
+Frittata,Low,Spicy,Breakfast,Adult,Italian
+Dumplings,High,Mild,Dinner,Senior,Chinese
+Pancakes,Low,Spicy,Breakfast,Child,American
+Fried Rice,Low,Mild,Lunch,Adult,Chinese
+Tandoori,Medium,Medium,Dinner,Adult,Indian
+Salad,Medium,Mild,Dinner,Senior,American
+Steak,Low,Mild,Dinner,Adult,American
+Noodles,Low,Spicy,Lunch,Senior,Chinese
+Burrito,Medium,Spicy,Lunch,Child,Mexican
+Burrito,Low,Mild,Lunch,Adult,Mexican
+Salad,Low,Spicy,Dinner,Adult,American
+Fries,High,Mild,Lunch,Child,American
+Dumplings,Medium,Spicy,Dinner,Adult,Chinese
+Curry,Low,Mild,Lunch,Child,Indian
+Steak,High,Spicy,Dinner,Child,American
+Pasta,Medium,Medium,Lunch,Child,Italian
+Dim Sum,Medium,Medium,Breakfast,Child,Chinese
+Tacos,Medium,Medium,Breakfast,Adult,Mexican
+Pasta,High,Spicy,Lunch,Child,Italian
+Frittata,High,Medium,Breakfast,Adult,Italian
+Salad,Medium,Medium,Dinner,Adult,American
+Tandoori,High,Spicy,Dinner,Senior,Indian
+Curry,Medium,Mild,Lunch,Child,Indian
+Biryani,High,Spicy,Lunch,Senior,Indian
+Idli,Medium,Spicy,Breakfast,Senior,Indian
+Salad,Medium,Mild,Dinner,Child,American
+Frittata,Low,Medium,Breakfast,Adult,Italian
+Lasagna,High,Spicy,Dinner,Adult,Italian
+Tandoori,Medium,Medium,Dinner,Adult,Indian
+Dumplings,Medium,Mild,Dinner,Child,Chinese
+Paneer,Medium,Spicy,Dinner,Child,Indian
+Fries,High,Mild,Lunch,Adult,American
+Burrito,Medium,Mild,Lunch,Child,Mexican
+Salad,Low,Mild,Dinner,Child,American
+Pizza,Medium,Medium,Lunch,Adult,Italian
+Tandoori,Medium,Medium,Dinner,Child,Indian
+Dim Sum,Low,Spicy,Breakfast,Senior,Chinese
+Frittata,High,Spicy,Breakfast,Adult,Italian
+Pizza,High,Spicy,Lunch,Senior,Italian
+Dim Sum,Medium,Medium,Breakfast,Adult,Chinese
+Pasta,Low,Medium,Lunch,Adult,Italian
+Steak,Low,Mild,Dinner,Child,American
+Tacos,High,Mild,Breakfast,Senior,Mexican
+Dim Sum,Low,Mild,Breakfast,Child,Chinese
+Pasta,Low,Mild,Lunch,Senior,Italian
+Pizza,Low,Medium,Lunch,Child,Italian
+Idli,High,Mild,Breakfast,Senior,Indian
+Dim Sum,Low,Mild,Breakfast,Senior,Chinese
+Steak,High,Spicy,Dinner,Senior,American
+Enchilada,High,Spicy,Dinner,Child,Mexican
+Noodles,High,Mild,Lunch,Senior,Chinese
+Pizza,Low,Spicy,Lunch,Child,Italian
+Tacos,High,Medium,Breakfast,Child,Mexican
+Pizza,Medium,Medium,Lunch,Adult,Italian
+Dim Sum,High,Spicy,Breakfast,Senior,Chinese
+Steak,Low,Spicy,Dinner,Senior,American
+Pancakes,Low,Mild,Breakfast,Adult,American
+Frittata,High,Mild,Breakfast,Senior,Italian
+Burrito,Medium,Medium,Lunch,Adult,Mexican
+Tacos,High,Mild,Breakfast,Adult,Mexican
+Tandoori,Low,Medium,Dinner,Adult,Indian
+Quesadilla,High,Medium,Lunch,Senior,Mexican
+Burrito,Medium,Mild,Lunch,Senior,Mexican
+Enchilada,Medium,Medium,Dinner,Child,Mexican
+Dim Sum,Low,Mild,Breakfast,Senior,Chinese
+Dim Sum,High,Spicy,Breakfast,Senior,Chinese
+Chili,Medium,Spicy,Dinner,Adult,Mexican
+Tacos,High,Medium,Breakfast,Child,Mexican
+Pasta,High,Mild,Lunch,Senior,Italian
+Noodles,Low,Medium,Lunch,Senior,Chinese
+Noodles,Medium,Medium,Lunch,Child,Chinese
+Lasagna,Low,Spicy,Dinner,Adult,Italian
+Idli,Low,Mild,Breakfast,Adult,Indian
+Noodles,Medium,Mild,Lunch,Senior,Chinese
+Curry,Low,Spicy,Lunch,Senior,Indian
+Sweet & Sour,Medium,Medium,Dinner,Senior,Chinese
+Curry,Low,Spicy,Lunch,Adult,Indian
+Lasagna,Medium,Mild,Dinner,Child,Italian
+Tacos,Low,Mild,Breakfast,Child,Mexican
+Pancakes,High,Mild,Breakfast,Senior,American
+Risotto,Medium,Medium,Dinner,Adult,Italian
+Fried Rice,High,Medium,Lunch,Senior,Chinese
+Dim Sum,Low,Medium,Breakfast,Adult,Chinese
+Paratha,Low,Mild,Breakfast,Child,Indian
+Dim Sum,High,Mild,Breakfast,Adult,Chinese
+Tacos,Low,Mild,Breakfast,Senior,Mexican
+Chili,Medium,Spicy,Dinner,Child,Mexican
+Pasta,Low,Medium,Lunch,Senior,Italian
+Dim Sum,Medium,Medium,Breakfast,Senior,Chinese
+Steak,High,Medium,Dinner,Senior,American
+Idli,Medium,Mild,Breakfast,Child,Indian
+Enchilada,Medium,Spicy,Dinner,Child,Mexican
+Tacos,Medium,Mild,Breakfast,Senior,Mexican
+Chili,Medium,Medium,Dinner,Senior,Mexican
+Frittata,Low,Mild,Breakfast,Child,Italian
+Burger,Medium,Medium,Lunch,Senior,American
+Tacos,High,Medium,Breakfast,Child,Mexican
+Pizza,Low,Medium,Lunch,Senior,Italian
+Fried Rice,High,Mild,Lunch,Senior,Chinese
+Biryani,Low,Mild,Lunch,Senior,Indian
+Burrito,High,Medium,Lunch,Child,Mexican
+Pancakes,High,Spicy,Breakfast,Child,American
+Tacos,Low,Medium,Breakfast,Child,Mexican
+Paneer,Medium,Medium,Dinner,Senior,Indian
+Steak,Medium,Spicy,Dinner,Child,American
+Idli,Low,Mild,Breakfast,Adult,Indian
+Tandoori,Low,Spicy,Dinner,Adult,Indian
+Sweet & Sour,High,Medium,Dinner,Adult,Chinese
+Idli,High,Spicy,Breakfast,Senior,Indian
+Biryani,High,Mild,Lunch,Adult,Indian
+Sweet & Sour,Low,Mild,Dinner,Senior,Chinese
+Fries,Low,Spicy,Lunch,Child,American
+Frittata,Medium,Mild,Breakfast,Adult,Italian
+Sweet & Sour,Medium,Spicy,Dinner,Senior,Chinese
+Pizza,High,Spicy,Lunch,Adult,Italian
+Burger,Low,Medium,Lunch,Child,American
+Curry,Low,Spicy,Lunch,Adult,Indian
+Salad,High,Spicy,Dinner,Adult,American
+Chili,High,Spicy,Dinner,Child,Mexican
+Fried Rice,Low,Mild,Lunch,Senior,Chinese
+Tandoori,Low,Spicy,Dinner,Senior,Indian
+Sweet & Sour,Medium,Medium,Dinner,Senior,Chinese
+Quesadilla,High,Mild,Lunch,Senior,Mexican
+Pancakes,Medium,Spicy,Breakfast,Adult,American
+Tacos,Medium,Spicy,Breakfast,Child,Mexican
+Paratha,High,Spicy,Breakfast,Senior,Indian
+Chili,High,Mild,Dinner,Child,Mexican
+Idli,Medium,Mild,Breakfast,Senior,Indian
+Tandoori,High,Mild,Dinner,Child,Indian
+Dumplings,Medium,Mild,Dinner,Senior,Chinese
+Lasagna,Low,Medium,Dinner,Senior,Italian
+Tacos,Low,Mild,Breakfast,Child,Mexican
+Pizza,Low,Mild,Lunch,Child,Italian
+Chili,Medium,Medium,Dinner,Child,Mexican
+Tacos,High,Mild,Breakfast,Senior,Mexican
+Enchilada,Medium,Spicy,Dinner,Adult,Mexican
+Steak,Low,Mild,Dinner,Adult,American
+Fries,Low,Spicy,Lunch,Adult,American
+Frittata,Medium,Spicy,Breakfast,Senior,Italian
+Quesadilla,High,Spicy,Lunch,Adult,Mexican
+Curry,High,Spicy,Lunch,Child,Indian
+Burger,Medium,Spicy,Lunch,Senior,American
+Lasagna,High,Mild,Dinner,Child,Italian
+Sweet & Sour,Medium,Mild,Dinner,Senior,Chinese
+Frittata,High,Mild,Breakfast,Senior,Italian
+Noodles,Medium,Spicy,Lunch,Adult,Chinese
+Quesadilla,Medium,Mild,Lunch,Adult,Mexican
+Quesadilla,Medium,Spicy,Lunch,Senior,Mexican
+Idli,Medium,Mild,Breakfast,Senior,Indian
+Burger,High,Mild,Lunch,Adult,American
+Burrito,High,Spicy,Lunch,Adult,Mexican
+Frittata,High,Medium,Breakfast,Adult,Italian
+Noodles,High,Medium,Lunch,Adult,Chinese
+Sweet & Sour,Medium,Mild,Dinner,Adult,Chinese
+Idli,High,Spicy,Breakfast,Senior,Indian
+Sweet & Sour,Low,Medium,Dinner,Child,Chinese
+Salad,High,Spicy,Dinner,Child,American
+Pancakes,Medium,Mild,Breakfast,Senior,American
+Dim Sum,High,Mild,Breakfast,Senior,Chinese
+Pizza,Medium,Mild,Lunch,Senior,Italian
+Fries,Medium,Medium,Lunch,Adult,American
+Idli,Medium,Spicy,Breakfast,Senior,Indian
+Risotto,Low,Spicy,Dinner,Senior,Italian
+Pasta,High,Mild,Lunch,Senior,Italian
+Salad,High,Medium,Dinner,Child,American
+Tacos,Low,Mild,Breakfast,Senior,Mexican
+Tacos,Medium,Mild,Breakfast,Child,Mexican
+Tacos,Medium,Spicy,Breakfast,Child,Mexican
+Sweet & Sour,High,Mild,Dinner,Child,Chinese
+Noodles,High,Medium,Lunch,Senior,Chinese
+Curry,Medium,Medium,Lunch,Senior,Indian
+Tacos,High,Spicy,Breakfast,Senior,Mexican
+Paratha,High,Medium,Breakfast,Senior,Indian
+Dim Sum,Medium,Spicy,Breakfast,Senior,Chinese
