@@ -66,10 +66,6 @@ The selected **XGBoost** model was deployed using **Streamlit**, a Python librar
 
 ---
 
-## Project Structure
-AKK/ │ ├── app.py # Main application file ├── model.pkl # Your model or data processing logic ├── static/ # Directory for static assets │ └── images/ # Folder for storing image files │ └── example.png # Example image ├── templates/ # Directory for HTML templates │ └── index.html # Main HTML file └── README.md # Documentation (optional)
----
-
 ## Deployment
 
 You can access the deployed application [here](http://ec2-16-171-31-18.eu-north-1.compute.amazonaws.com:8080/).
