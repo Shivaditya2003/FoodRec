@@ -62,7 +62,7 @@ After training and evaluating these models, **XGBoost** was chosen as the final 
 
 ## Model Deployment
 
-The selected **XGBoost** model was deployed using **Streamlit**, a Python library for building interactive web applications. The deployment allows users to input relevant features such as date, weather conditions, and time, and obtain the predicted bike rental count as the output.
+The selected **XGBoost** model was deployed using **Streamlit**, a Python library for building interactive web applications. The deployment allows users to input relevant features such as date, weather conditions, and time, spice level, dieting level and predict the preferable dish as the output.
 
 ---
 
